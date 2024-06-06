@@ -13,7 +13,7 @@ struct CrosswordDetailViewMac: View {
 
     var body: some View {
         ZStack(alignment: .topLeading) {
-            CrosswordViewMac(levelNumber: level, levelsViewModel: viewModel)
+            CrosswordViewMac(levelNumber: level, levelsViewModel: viewModel, onBack: onBack)  // Pass the closure here
 
             Button(action: {
                 onBack()
@@ -32,21 +32,13 @@ struct CrosswordDetailViewMac: View {
         .background(Color.white.opacity(1))
         .edgesIgnoringSafeArea(.all)
     }
-}
-
-struct ClearButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .background(Color.clear)
-            .cornerRadius(8)
-    }
-}
-
-struct CrosswordDetailViewMac_Previews: PreviewProvider {
-    static var previews: some View {
-        let levelsViewModel = CrosswordLevelsViewModel()
-        CrosswordDetailViewMac(level: 1, viewModel: levelsViewModel) {
-            // Handle back navigation
+    
+    struct ClearButtonStyle: ButtonStyle {
+        func makeBody(configuration: Configuration) -> some View {
+            configuration.label
+                .background(Color.clear)
+                .cornerRadius(8)
         }
     }
 }
+

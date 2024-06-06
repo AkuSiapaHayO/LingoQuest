@@ -10,10 +10,12 @@ struct CrosswordViewMac: View {
     @StateObject private var viewModel: CrosswordViewModel
     @ObservedObject var levelsViewModel: CrosswordLevelsViewModel
     @State private var showCompletionAlert = false
+    var onBack: () -> Void
     
-    init(levelNumber: Int, levelsViewModel: CrosswordLevelsViewModel) {
+    init(levelNumber: Int, levelsViewModel: CrosswordLevelsViewModel, onBack: @escaping () -> Void) {  // Add the onBack parameter
         _viewModel = StateObject(wrappedValue: CrosswordViewModel(levelNumber: levelNumber))
         self.levelsViewModel = levelsViewModel
+        self.onBack = onBack  // Initialize the closure
     }
     
     var body: some View {
@@ -53,6 +55,7 @@ struct CrosswordViewMac: View {
                     message: Text("You completed the crossword for level \(viewModel.currentLevel)!"),
                     dismissButton: .default(Text("OK")) {
                         levelsViewModel.unlockNextLevel(after: viewModel.currentLevel)
+                        onBack()
                     }
                 )
             }
@@ -101,6 +104,6 @@ struct CrosswordViewMac: View {
 struct CrosswordViewMac_Previews: PreviewProvider {
     static var previews: some View {
         let levelsViewModel = CrosswordLevelsViewModel()
-        CrosswordViewMac(levelNumber: 1, levelsViewModel: levelsViewModel)
+        CrosswordViewMac(levelNumber: 1, levelsViewModel: levelsViewModel, onBack: {})
     }
 }
