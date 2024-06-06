@@ -8,43 +8,73 @@
 import SwiftUI
 
 struct LevelsViewMac: View {
-    @StateObject var levelsViewModel = LevelViewModel()
+    @ObservedObject var viewModel: LevelViewModel
     @State private var selectedLevel: Int? = nil
-    
+
     var body: some View {
-        NavigationView {
+        ZStack {
             VStack {
-                Text("Select a Level")
+                Text("Select Level")
+                    .font(.title)
+                    .padding(.top, 40)
+                    .foregroundColor(.black)
+                Text("Blank Space")
                     .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding(.top, 20)
-                
-                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 60), count: 3), spacing: 30) {
-                    ForEach(1...15, id: \.self) { level in
-                        NavigationLink(destination: SayTheWordViewMac(viewModel: SayTheWordViewModelMac(level: level, levelViewModel: levelsViewModel))) {
-                            Text("\(level)")
-                                .padding()
-                                .frame(width: 50, height: 50)
-                                .background(levelsViewModel.isUnlocked(level: level) ? Color.orange : Color.gray)
-                                .cornerRadius(10)
-                                .foregroundColor(.white)
-                                .font(.system(size: 14, weight: .bold))
+                    .bold()
+                    .padding(.bottom, 20)
+                    .padding(.top, 1)
+                    .foregroundColor(.black)
+                ScrollView {
+                    LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 20), count: 5), spacing: 20) {
+                        ForEach(1...15, id: \.self) { level in
+                            Button(action: {
+                                if viewModel.isUnlocked(level: level) {
+                                    selectedLevel = level
+                                }
+                            }) {
+                                Text("\(level)")
+                                    .font(.title)
+                                    .frame(width: 80, height: 80)
+                                    .background(viewModel.isUnlocked(level: level) ? Color(red: 59 / 255, green: 166 / 255, blue: 102 / 255) : Color.gray)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(10)
+                            }
+                            .buttonStyle(BlankSpaceClearLevelButtonStyle())
+                            .disabled(!viewModel.isUnlocked(level: level))
                         }
-                        .disabled(!levelsViewModel.isUnlocked(level: level))
                     }
+                    .padding()
                 }
-                .buttonStyle(PlainButtonStyle())
-                .padding()
+                .padding(.horizontal, 20)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .padding(.horizontal, 20)
-            .onAppear {
-                levelsViewModel.loadLevels()
+
+            if let level = selectedLevel {
+                LevelsDetailViewMac(level: level, viewModel: viewModel) {
+                    selectedLevel = nil
+                }
+                .transition(.move(edge: .trailing))
+                .zIndex(1)
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .onAppear {
+            viewModel.loadLevels()
+        }
+        .background(Color.white)
     }
 }
 
-#Preview {
-    LevelsViewMac()
+struct SayTheWordClearLevelButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .background(Color.clear)
+            .cornerRadius(8)
+    }
 }
+
+struct LevelsViewMac_Previews: PreviewProvider {
+    static var previews: some View {
+        LevelsViewMac(viewModel: LevelViewModel())
+    }
+}
+

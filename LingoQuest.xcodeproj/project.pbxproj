@@ -64,6 +64,7 @@
 		04A647102C11D7860019C5CF /* BlankSpaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646C42C11A7B80019C5CF /* BlankSpaceViewModel.swift */; };
 		04A647112C11D7860019C5CF /* levels.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646BF2C11A7250019C5CF /* levels.json */; };
 		04A647122C11D7900019C5CF /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646AE2C11A3660019C5CF /* words.json */; };
+		CB6F9E2D2C120FE100E5C626 /* LevelsDetailViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9E2C2C120FE100E5C626 /* LevelsDetailViewMac.swift */; };
 		CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */; };
 		CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */; };
 		CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */; };
@@ -115,6 +116,7 @@
 		04A647082C11D71A0019C5CF /* BlankSpaceViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceViewMac.swift; sourceTree = "<group>"; };
 		04A6470A2C11D7460019C5CF /* LevelDetailViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDetailViewMac.swift; sourceTree = "<group>"; };
 		04A6470C2C11D75A0019C5CF /* LevelViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewMac.swift; sourceTree = "<group>"; };
+		CB6F9E2C2C120FE100E5C626 /* LevelsDetailViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsDetailViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewModelMac.swift; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 		CBF6DC032C119D51009765DB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB6F9E2C2C120FE100E5C626 /* LevelsDetailViewMac.swift */,
 				CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */,
 				CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */,
 			);
@@ -555,6 +558,7 @@
 				04A646FE2C11D52D0019C5CF /* CrosswordAnswerModel.swift in Sources */,
 				04A6470D2C11D75A0019C5CF /* LevelViewMac.swift in Sources */,
 				04A647092C11D71A0019C5CF /* BlankSpaceViewMac.swift in Sources */,
+				CB6F9E2D2C120FE100E5C626 /* LevelsDetailViewMac.swift in Sources */,
 				04A646A02C1189840019C5CF /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,7 +693,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LingoQuest/Preview Content\"";
-				DEVELOPMENT_TEAM = ZP3PVD4P6P;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
@@ -699,6 +703,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -720,7 +725,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LingoQuest/Preview Content\"";
-				DEVELOPMENT_TEAM = ZP3PVD4P6P;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
@@ -730,6 +735,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -749,11 +755,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LingoQuestMac/LingoQuestMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LingoQuestMac/Preview Content\"";
-				DEVELOPMENT_TEAM = ZP3PVD4P6P;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -780,11 +787,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LingoQuestMac/LingoQuestMac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LingoQuestMac/Preview Content\"";
-				DEVELOPMENT_TEAM = ZP3PVD4P6P;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

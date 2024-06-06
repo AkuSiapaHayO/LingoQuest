@@ -107,3 +107,4 @@ class SayTheWordViewModelMac: ObservableObject {
         transcript = ""
     }
 }
+
