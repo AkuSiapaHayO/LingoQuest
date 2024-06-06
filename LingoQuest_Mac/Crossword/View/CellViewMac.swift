@@ -1,12 +1,12 @@
 //
-//  CellView.swift
-//  LingoQuest
+//  CellViewMac.swift
+//  LingoQuest_Mac
 //
-//  Created by MacBook Pro on 30/05/24.
+//  Created by MacBook Pro on 06/06/24.
 //
 import SwiftUI
 
-struct CellView: View {
+struct CellViewMac: View {
     @ObservedObject var cell: CrosswordCell
     var isSelected: Bool
     var onTap: () -> Void
@@ -23,16 +23,17 @@ struct CellView: View {
         GeometryReader { geometry in
             ZStack(alignment: .topLeading) {
                 Rectangle()
-                    .fill(self.isSelected ? Color.blue : (self.cell.isEditable ? Color.white : Color.clear))
+                    .fill(self.cell.isEditable ? Color.white : Color.clear)
+                    .border(self.isSelected ? Color.blue : Color.clear, width: 2)
+                    .frame(width: geometry.size.width, height: geometry.size.height)
 
                 if self.cell.isEditable {
-                    CustomTextField(text: self.$cell.letter, isEditing: self.$isEditing, onCommit: {
+                    CustomTextFieldMac(text: self.$cell.letter, isEditing: self.$isEditing, onCommit: {
                         self.onCommit()
                     })
-                    .multilineTextAlignment(.center)
-                    .font(Font.system(size: 20))
+                    .frame(width: geometry.size.width, height: geometry.size.height)
                     .background(Color.white)
-                    .border(Color.blue, width: isFocused ? 2 : 0)
+                    .border(Color.blue, width: isFocused ? 2 : 0) // Border for text field focus
                     .focused($isFocused)
                     .onTapGesture {
                         self.isFocused = true
@@ -41,6 +42,7 @@ struct CellView: View {
                 } else if !self.cell.letter.isEmpty {
                     Text(self.cell.letter)
                         .font(Font.system(size: 20))
+                        .frame(width: geometry.size.width, height: geometry.size.height)
                         .background(Color.clear)
                 }
 
@@ -84,6 +86,6 @@ struct CellView: View {
             }
         }
         .aspectRatio(1, contentMode: .fit)
-        .frame(minWidth: 40, minHeight: 40) // Ensure cells have a minimum size for readability
+        .frame(minWidth: 40, minHeight: 40)
     }
 }

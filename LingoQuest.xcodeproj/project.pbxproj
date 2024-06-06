@@ -25,6 +25,18 @@
 		049BCBC32C08375B00D00EA1 /* CrosswordQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BCBC22C08375B00D00EA1 /* CrosswordQuestionModel.swift */; };
 		04C682F02C1167A60087D867 /* CrosswordLevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C682EF2C1167A60087D867 /* CrosswordLevelsViewModel.swift */; };
 		04C682F22C116BCE0087D867 /* CrosswordLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C682F12C116BCE0087D867 /* CrosswordLevelsView.swift */; };
+		04C682F52C1179750087D867 /* CrosswordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C682F42C1179750087D867 /* CrosswordViewMac.swift */; };
+		04C682F92C1179B40087D867 /* CrosswordLevelsViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C682F82C1179B40087D867 /* CrosswordLevelsViewMac.swift */; };
+		04C682FA2C117A3B0087D867 /* CrosswordAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BCBBC2C08345400D00EA1 /* CrosswordAnswerModel.swift */; };
+		04C682FB2C117A3B0087D867 /* CrosswordQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BCBC22C08375B00D00EA1 /* CrosswordQuestionModel.swift */; };
+		04C682FC2C117A3B0087D867 /* CrosswordLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BCBBA2C08334A00D00EA1 /* CrosswordLevelModel.swift */; };
+		04C682FD2C117A3B0087D867 /* CrosswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BCBB42C082B7A00D00EA1 /* CrosswordCell.swift */; };
+		04C682FE2C117A470087D867 /* CrosswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049BCBC02C0834DC00D00EA1 /* CrosswordViewModel.swift */; };
+		04C682FF2C117A470087D867 /* CrosswordLevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C682EF2C1167A60087D867 /* CrosswordLevelsViewModel.swift */; };
+		04C6830C2C1182610087D867 /* CellViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6830B2C1182610087D867 /* CellViewMac.swift */; };
+		04C6830E2C1182770087D867 /* CustomTextFieldMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6830D2C1182770087D867 /* CustomTextFieldMac.swift */; };
+		04C6830F2C118DEA0087D867 /* CrosswordLevels.json in Resources */ = {isa = PBXBuildFile; fileRef = 047078192C098078007E5A1A /* CrosswordLevels.json */; };
+		04C683112C119B810087D867 /* CrosswordDetailViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C683102C119B810087D867 /* CrosswordDetailViewMac.swift */; };
 		04DD3CE82C003F230007C583 /* CrosswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD3CE72C003F230007C583 /* CrosswordView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +62,11 @@
 		049BCBC22C08375B00D00EA1 /* CrosswordQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordQuestionModel.swift; sourceTree = "<group>"; };
 		04C682EF2C1167A60087D867 /* CrosswordLevelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelsViewModel.swift; sourceTree = "<group>"; };
 		04C682F12C116BCE0087D867 /* CrosswordLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelsView.swift; sourceTree = "<group>"; };
+		04C682F42C1179750087D867 /* CrosswordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordViewMac.swift; sourceTree = "<group>"; };
+		04C682F82C1179B40087D867 /* CrosswordLevelsViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelsViewMac.swift; sourceTree = "<group>"; };
+		04C6830B2C1182610087D867 /* CellViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewMac.swift; sourceTree = "<group>"; };
+		04C6830D2C1182770087D867 /* CustomTextFieldMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldMac.swift; sourceTree = "<group>"; };
+		04C683102C119B810087D867 /* CrosswordDetailViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordDetailViewMac.swift; sourceTree = "<group>"; };
 		04DD3CE72C003F230007C583 /* CrosswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
 /* End PBXFileReference section */
 
@@ -112,6 +129,7 @@
 		044B72D82C0035F000FDF683 /* LingoQuest_Mac */ = {
 			isa = PBXGroup;
 			children = (
+				04C683072C117EB60087D867 /* Crossword */,
 				044B72D92C0035F000FDF683 /* LingoQuest_MacApp.swift */,
 				044B72DB2C0035F000FDF683 /* ContentView.swift */,
 				044B72DD2C0035F200FDF683 /* Assets.xcassets */,
@@ -158,6 +176,26 @@
 				04C682EF2C1167A60087D867 /* CrosswordLevelsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04C682F32C1179520087D867 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C6830D2C1182770087D867 /* CustomTextFieldMac.swift */,
+				04C6830B2C1182610087D867 /* CellViewMac.swift */,
+				04C682F42C1179750087D867 /* CrosswordViewMac.swift */,
+				04C683102C119B810087D867 /* CrosswordDetailViewMac.swift */,
+				04C682F82C1179B40087D867 /* CrosswordLevelsViewMac.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C683072C117EB60087D867 /* Crossword */ = {
+			isa = PBXGroup;
+			children = (
+				04C682F32C1179520087D867 /* View */,
+			);
+			path = Crossword;
 			sourceTree = "<group>";
 		};
 		04DD3CE62C003F060007C583 /* Crossword */ = {
@@ -260,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6830F2C118DEA0087D867 /* CrosswordLevels.json in Resources */,
 				044B72E12C0035F200FDF683 /* Preview Assets.xcassets in Resources */,
 				044B72DE2C0035F200FDF683 /* Assets.xcassets in Resources */,
 			);
@@ -291,8 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C682F92C1179B40087D867 /* CrosswordLevelsViewMac.swift in Sources */,
 				044B72DC2C0035F000FDF683 /* ContentView.swift in Sources */,
+				04C682FA2C117A3B0087D867 /* CrosswordAnswerModel.swift in Sources */,
+				04C682FB2C117A3B0087D867 /* CrosswordQuestionModel.swift in Sources */,
+				04C682FC2C117A3B0087D867 /* CrosswordLevelModel.swift in Sources */,
+				04C682FD2C117A3B0087D867 /* CrosswordCell.swift in Sources */,
 				044B72DA2C0035F000FDF683 /* LingoQuest_MacApp.swift in Sources */,
+				04C682F52C1179750087D867 /* CrosswordViewMac.swift in Sources */,
+				04C6830E2C1182770087D867 /* CustomTextFieldMac.swift in Sources */,
+				04C6830C2C1182610087D867 /* CellViewMac.swift in Sources */,
+				04C682FE2C117A470087D867 /* CrosswordViewModel.swift in Sources */,
+				04C682FF2C117A470087D867 /* CrosswordLevelsViewModel.swift in Sources */,
+				04C683112C119B810087D867 /* CrosswordDetailViewMac.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
