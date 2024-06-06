@@ -23,17 +23,16 @@ struct CellViewMac: View {
         GeometryReader { geometry in
             ZStack(alignment: .topLeading) {
                 Rectangle()
-                    .fill(self.cell.isEditable ? Color.white : Color.clear)
-                    .border(self.isSelected ? Color.blue : Color.clear, width: 2)
-                    .frame(width: geometry.size.width, height: geometry.size.height)
+                    .fill(self.isSelected ? Color.blue : (self.cell.isEditable ? Color.white : Color.clear))
 
                 if self.cell.isEditable {
                     CustomTextFieldMac(text: self.$cell.letter, isEditing: self.$isEditing, onCommit: {
                         self.onCommit()
                     })
-                    .frame(width: geometry.size.width, height: geometry.size.height)
+                    .multilineTextAlignment(.center)
+                    .font(Font.system(size: 20))
                     .background(Color.white)
-                    .border(Color.blue, width: isFocused ? 2 : 0) // Border for text field focus
+                    .border(Color.blue, width: isFocused ? 2 : 0)
                     .focused($isFocused)
                     .onTapGesture {
                         self.isFocused = true
@@ -42,7 +41,6 @@ struct CellViewMac: View {
                 } else if !self.cell.letter.isEmpty {
                     Text(self.cell.letter)
                         .font(Font.system(size: 20))
-                        .frame(width: geometry.size.width, height: geometry.size.height)
                         .background(Color.clear)
                 }
 
@@ -86,6 +84,6 @@ struct CellViewMac: View {
             }
         }
         .aspectRatio(1, contentMode: .fit)
-        .frame(minWidth: 40, minHeight: 40)
+        .frame(minWidth: 40, minHeight: 40) // Ensure cells have a minimum size for readability
     }
 }

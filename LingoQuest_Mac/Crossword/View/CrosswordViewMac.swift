@@ -37,10 +37,10 @@ struct CrosswordViewMac: View {
                                 onCommit: {
                                     viewModel.checkForWin()
                                 },
-                                showTopBorder: showBorder(row: rowIndex, col: colIndex, direction: .top),
-                                showLeadingBorder: showBorder(row: rowIndex, col: colIndex, direction: .leading),
-                                showBottomBorder: showBorder(row: rowIndex, col: colIndex, direction: .bottom),
-                                showTrailingBorder: showBorder(row: rowIndex, col: colIndex, direction: .trailing)
+                                showTopBorder: cell.isEditable || showBorder(row: rowIndex, col: colIndex, direction: .top),
+                                showLeadingBorder: cell.isEditable || showBorder(row: rowIndex, col: colIndex, direction: .leading),
+                                showBottomBorder: cell.isEditable || showBorder(row: rowIndex, col: colIndex, direction: .bottom),
+                                showTrailingBorder: cell.isEditable || showBorder(row: rowIndex, col: colIndex, direction: .trailing)
                             )
                         }
                     }
@@ -97,7 +97,6 @@ struct CrosswordViewMac: View {
         }
     }
 }
-
 
 struct CrosswordViewMac_Previews: PreviewProvider {
     static var previews: some View {
