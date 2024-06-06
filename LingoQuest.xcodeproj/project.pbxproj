@@ -17,17 +17,20 @@
 		04A646982C1186920019C5CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A646972C1186920019C5CF /* Preview Assets.xcassets */; };
 		04A6469F2C11882B0019C5CF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6469E2C11882B0019C5CF /* CustomButton.swift */; };
 		04A646A02C1189840019C5CF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6469E2C11882B0019C5CF /* CustomButton.swift */; };
-		CBF6DBF12C119AD7009765DB /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBF02C119AD7009765DB /* SplashScreenView.swift */; };
-		CBF6DBF62C119B35009765DB /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBF52C119B35009765DB /* SpeechRecognizer.swift */; };
-		CBF6DBF82C119B68009765DB /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = CBF6DBF72C119B68009765DB /* words.json */; };
-		CBF6DBFA2C119B82009765DB /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBF92C119B82009765DB /* LevelData.swift */; };
-		CBF6DBFC2C119B98009765DB /* Levelsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBFB2C119B98009765DB /* Levelsview.swift */; };
-		CBF6DBFE2C119BBD009765DB /* SayTheWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBFD2C119BBD009765DB /* SayTheWordView.swift */; };
-		CBF6DC002C119BEE009765DB /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBFF2C119BEE009765DB /* LevelsViewModel.swift */; };
-		CBF6DC022C119C18009765DB /* SayTheWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC012C119C18009765DB /* SayTheWordViewModel.swift */; };
-		CBF6DC0B2C119DB3009765DB /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBFF2C119BEE009765DB /* LevelsViewModel.swift */; };
-		CBF6DC0C2C119DB3009765DB /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DBF92C119B82009765DB /* LevelData.swift */; };
-		CBF6DC0D2C119DB3009765DB /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = CBF6DBF72C119B68009765DB /* words.json */; };
+		04A646B02C11A3660019C5CF /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646A52C11A3660019C5CF /* LevelData.swift */; };
+		04A646B12C11A3660019C5CF /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646A62C11A3660019C5CF /* SpeechRecognizer.swift */; };
+		04A646B22C11A3660019C5CF /* Levelsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646A82C11A3660019C5CF /* Levelsview.swift */; };
+		04A646B32C11A3660019C5CF /* SayTheWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646A92C11A3660019C5CF /* SayTheWordView.swift */; };
+		04A646B42C11A3660019C5CF /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646AB2C11A3660019C5CF /* LevelsViewModel.swift */; };
+		04A646B52C11A3660019C5CF /* SayTheWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646AC2C11A3660019C5CF /* SayTheWordViewModel.swift */; };
+		04A646B62C11A3660019C5CF /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646AE2C11A3660019C5CF /* words.json */; };
+		04A646B82C11A3CE0019C5CF /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646B72C11A3CE0019C5CF /* SplashScreenView.swift */; };
+		04A646C02C11A7250019C5CF /* levels.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646BF2C11A7250019C5CF /* levels.json */; };
+		04A646C52C11A7B80019C5CF /* BlankSpaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646C42C11A7B80019C5CF /* BlankSpaceViewModel.swift */; };
+		04A646C82C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646C72C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift */; };
+		04A646CB2C11A7EF0019C5CF /* BlankSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */; };
+		04A646CD2C11A8030019C5CF /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646CC2C11A8030019C5CF /* LevelView.swift */; };
+		04A646D22C11A8B70019C5CF /* BlankSpaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */; };
 		CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */; };
 		CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */; };
 		CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */; };
@@ -46,14 +49,20 @@
 		04A646972C1186920019C5CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A646992C1186920019C5CF /* LingoQuestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LingoQuestMac.entitlements; sourceTree = "<group>"; };
 		04A6469E2C11882B0019C5CF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		CBF6DBF02C119AD7009765DB /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SplashScreenView.swift; path = ../../../../koko/SplashScreenView.swift; sourceTree = "<group>"; };
-		CBF6DBF52C119B35009765DB /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpeechRecognizer.swift; path = ../../../../../koko/SpeechRecognizer.swift; sourceTree = "<group>"; };
-		CBF6DBF72C119B68009765DB /* words.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = words.json; path = ../../../../koko/words.json; sourceTree = "<group>"; };
-		CBF6DBF92C119B82009765DB /* LevelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelData.swift; path = ../../../../../koko/LevelData.swift; sourceTree = "<group>"; };
-		CBF6DBFB2C119B98009765DB /* Levelsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Levelsview.swift; path = ../../../../../koko/Levelsview.swift; sourceTree = "<group>"; };
-		CBF6DBFD2C119BBD009765DB /* SayTheWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SayTheWordView.swift; path = ../../../../../koko/SayTheWordView.swift; sourceTree = "<group>"; };
-		CBF6DBFF2C119BEE009765DB /* LevelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelsViewModel.swift; path = ../../../../../koko/LevelsViewModel.swift; sourceTree = "<group>"; };
-		CBF6DC012C119C18009765DB /* SayTheWordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SayTheWordViewModel.swift; path = ../../../../../koko/SayTheWordViewModel.swift; sourceTree = "<group>"; };
+		04A646A52C11A3660019C5CF /* LevelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelData.swift; sourceTree = "<group>"; };
+		04A646A62C11A3660019C5CF /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		04A646A82C11A3660019C5CF /* Levelsview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Levelsview.swift; sourceTree = "<group>"; };
+		04A646A92C11A3660019C5CF /* SayTheWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayTheWordView.swift; sourceTree = "<group>"; };
+		04A646AB2C11A3660019C5CF /* LevelsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewModel.swift; sourceTree = "<group>"; };
+		04A646AC2C11A3660019C5CF /* SayTheWordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SayTheWordViewModel.swift; sourceTree = "<group>"; };
+		04A646AE2C11A3660019C5CF /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		04A646B72C11A3CE0019C5CF /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		04A646BF2C11A7250019C5CF /* levels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels.json; sourceTree = "<group>"; };
+		04A646C42C11A7B80019C5CF /* BlankSpaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceViewModel.swift; sourceTree = "<group>"; };
+		04A646C72C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceLevelViewModel.swift; sourceTree = "<group>"; };
+		04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceView.swift; sourceTree = "<group>"; };
+		04A646CC2C11A8030019C5CF /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceModel.swift; sourceTree = "<group>"; };
 		CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewModelMac.swift; sourceTree = "<group>"; };
@@ -98,10 +107,12 @@
 		04A6467B2C1185400019C5CF /* LingoQuest */ = {
 			isa = PBXGroup;
 			children = (
-				CBF6DBEF2C119AC8009765DB /* SayTheWord */,
+				04A646BB2C11A6B70019C5CF /* BlankSpace */,
+				04A646AF2C11A3660019C5CF /* SayTheWord */,
 				04A6469D2C1187730019C5CF /* Components */,
 				04A6467C2C1185400019C5CF /* LingoQuestApp.swift */,
 				04A6467E2C1185400019C5CF /* ContentView.swift */,
+				04A646B72C11A3CE0019C5CF /* SplashScreenView.swift */,
 				04A646802C1185430019C5CF /* Assets.xcassets */,
 				04A646822C1185430019C5CF /* Preview Content */,
 			);
@@ -145,43 +156,80 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		CBF6DBEF2C119AC8009765DB /* SayTheWord */ = {
+		04A646A72C11A3660019C5CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CBF6DBF42C119B20009765DB /* ViewModel */,
-				CBF6DBF32C119B1A009765DB /* View */,
-				CBF6DBF22C119B16009765DB /* Model */,
-				CBF6DBF02C119AD7009765DB /* SplashScreenView.swift */,
-				CBF6DBF72C119B68009765DB /* words.json */,
-			);
-			path = SayTheWord;
-			sourceTree = "<group>";
-		};
-		CBF6DBF22C119B16009765DB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				CBF6DBF52C119B35009765DB /* SpeechRecognizer.swift */,
-				CBF6DBF92C119B82009765DB /* LevelData.swift */,
+				04A646A52C11A3660019C5CF /* LevelData.swift */,
+				04A646A62C11A3660019C5CF /* SpeechRecognizer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		CBF6DBF32C119B1A009765DB /* View */ = {
+		04A646AA2C11A3660019C5CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CBF6DBFB2C119B98009765DB /* Levelsview.swift */,
-				CBF6DBFD2C119BBD009765DB /* SayTheWordView.swift */,
+				04A646A82C11A3660019C5CF /* Levelsview.swift */,
+				04A646A92C11A3660019C5CF /* SayTheWordView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		CBF6DBF42C119B20009765DB /* ViewModel */ = {
+		04A646AD2C11A3660019C5CF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				CBF6DBFF2C119BEE009765DB /* LevelsViewModel.swift */,
-				CBF6DC012C119C18009765DB /* SayTheWordViewModel.swift */,
+				04A646AB2C11A3660019C5CF /* LevelsViewModel.swift */,
+				04A646AC2C11A3660019C5CF /* SayTheWordViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04A646AF2C11A3660019C5CF /* SayTheWord */ = {
+			isa = PBXGroup;
+			children = (
+				04A646A72C11A3660019C5CF /* Model */,
+				04A646AA2C11A3660019C5CF /* View */,
+				04A646AD2C11A3660019C5CF /* ViewModel */,
+				04A646AE2C11A3660019C5CF /* words.json */,
+			);
+			name = SayTheWord;
+			path = LingoQuest/SayTheWord;
+			sourceTree = SOURCE_ROOT;
+		};
+		04A646BB2C11A6B70019C5CF /* BlankSpace */ = {
+			isa = PBXGroup;
+			children = (
+				04A646BE2C11A6D30019C5CF /* View */,
+				04A646BD2C11A6CB0019C5CF /* View Model */,
+				04A646BC2C11A6C10019C5CF /* Model */,
+				04A646BF2C11A7250019C5CF /* levels.json */,
+			);
+			path = BlankSpace;
+			sourceTree = "<group>";
+		};
+		04A646BC2C11A6C10019C5CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A646BD2C11A6CB0019C5CF /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A646C42C11A7B80019C5CF /* BlankSpaceViewModel.swift */,
+				04A646C72C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		04A646BE2C11A6D30019C5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */,
+				04A646CC2C11A8030019C5CF /* LevelView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CBF6DC032C119D51009765DB /* View */ = {
@@ -289,8 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF6DBF82C119B68009765DB /* words.json in Resources */,
+				04A646B62C11A3660019C5CF /* words.json in Resources */,
 				04A646842C1185430019C5CF /* Preview Assets.xcassets in Resources */,
+				04A646C02C11A7250019C5CF /* levels.json in Resources */,
 				04A646812C1185430019C5CF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +348,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF6DC0D2C119DB3009765DB /* words.json in Resources */,
 				04A646982C1186920019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646952C1186920019C5CF /* Assets.xcassets in Resources */,
 			);
@@ -312,16 +360,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF6DC022C119C18009765DB /* SayTheWordViewModel.swift in Sources */,
-				CBF6DBFA2C119B82009765DB /* LevelData.swift in Sources */,
-				CBF6DBF62C119B35009765DB /* SpeechRecognizer.swift in Sources */,
+				04A646B52C11A3660019C5CF /* SayTheWordViewModel.swift in Sources */,
+				04A646B32C11A3660019C5CF /* SayTheWordView.swift in Sources */,
+				04A646B12C11A3660019C5CF /* SpeechRecognizer.swift in Sources */,
+				04A646CD2C11A8030019C5CF /* LevelView.swift in Sources */,
+				04A646C52C11A7B80019C5CF /* BlankSpaceViewModel.swift in Sources */,
+				04A646B22C11A3660019C5CF /* Levelsview.swift in Sources */,
+				04A646B02C11A3660019C5CF /* LevelData.swift in Sources */,
 				04A6467F2C1185400019C5CF /* ContentView.swift in Sources */,
 				04A6467D2C1185400019C5CF /* LingoQuestApp.swift in Sources */,
-				CBF6DBFE2C119BBD009765DB /* SayTheWordView.swift in Sources */,
-				CBF6DC002C119BEE009765DB /* LevelsViewModel.swift in Sources */,
+				04A646B82C11A3CE0019C5CF /* SplashScreenView.swift in Sources */,
+				04A646CB2C11A7EF0019C5CF /* BlankSpaceView.swift in Sources */,
+				04A646C82C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift in Sources */,
+				04A646D22C11A8B70019C5CF /* BlankSpaceModel.swift in Sources */,
 				04A6469F2C11882B0019C5CF /* CustomButton.swift in Sources */,
-				CBF6DBFC2C119B98009765DB /* Levelsview.swift in Sources */,
-				CBF6DBF12C119AD7009765DB /* SplashScreenView.swift in Sources */,
+				04A646B42C11A3660019C5CF /* LevelsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +384,6 @@
 			files = (
 				CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */,
 				04A646932C11868F0019C5CF /* ContentView.swift in Sources */,
-				CBF6DC0B2C119DB3009765DB /* LevelsViewModel.swift in Sources */,
-				CBF6DC0C2C119DB3009765DB /* LevelData.swift in Sources */,
 				04A646912C11868F0019C5CF /* LingoQuestMacApp.swift in Sources */,
 				CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */,
 				CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */,
@@ -473,6 +524,8 @@
 				DEVELOPMENT_TEAM = ZP3PVD4P6P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -502,6 +555,8 @@
 				DEVELOPMENT_TEAM = ZP3PVD4P6P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -535,6 +590,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -564,6 +621,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
