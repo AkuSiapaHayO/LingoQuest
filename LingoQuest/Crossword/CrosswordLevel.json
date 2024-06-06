@@ -1,0 +1,1458 @@
+[
+    {
+        "levelNumber": 1,
+        "questions": [
+            {
+                "id": 1,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'kucing'",
+                "answer": "CAT"
+            },
+            {
+                "id": 2,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'mobil'",
+                "answer": "CAR"
+            }
+        ],
+        "answers": [
+            {
+                "id": 1,
+                "row": 0,
+                "col": 0,
+                "letter": "C",
+                "label": "1"
+            },
+            {
+                "id": 2,
+                "row": 0,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 3,
+                "row": 0,
+                "col": 2,
+                "letter": "T"
+            },
+            {
+                "id": 4,
+                "row": 1,
+                "col": 0,
+                "letter": "A"
+            },
+            {
+                "id": 5,
+                "row": 2,
+                "col": 0,
+                "letter": "R"
+            }
+        ]
+    },
+    {
+        "levelNumber": 2,
+        "questions": [
+            {
+                "id": 3,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'ikan'",
+                "answer": "FISH"
+            },
+            {
+                "id": 4,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'kapal'",
+                "answer": "SHIP"
+            }
+        ],
+        "answers": [
+            {
+                "id": 6,
+                "row": 0,
+                "col": 0,
+                "letter": "F",
+                "label": "1"
+            },
+            {
+                "id": 7,
+                "row": 0,
+                "col": 1,
+                "letter": "I"
+            },
+            {
+                "id": 8,
+                "row": 0,
+                "col": 2,
+                "letter": "S",
+                "label": "2"
+            },
+            {
+                "id": 9,
+                "row": 0,
+                "col": 3,
+                "letter": "H"
+            },
+            {
+                "id": 10,
+                "row": 1,
+                "col": 2,
+                "letter": "H"
+            },
+            {
+                "id": 11,
+                "row": 2,
+                "col": 2,
+                "letter": "I"
+            },
+            {
+                "id": 12,
+                "row": 3,
+                "col": 2,
+                "letter": "P"
+            }
+        ]
+    },
+    {
+        "levelNumber": 3,
+        "questions": [
+            {
+                "id": 5,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'raja'",
+                "answer": "KING"
+            },
+            {
+                "id": 6,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'besar'",
+                "answer": "BIG"
+            },
+            {
+                "id": 7,
+                "direction": "3. Menurun",
+                "question": "Bahasa Inggrisnya 'permainan'",
+                "answer": "GAME"
+            }
+        ],
+        "answers": [
+            {
+                "id": 13,
+                "row": 1,
+                "col": 0,
+                "letter": "K",
+                "label": "1"
+            },
+            {
+                "id": 14,
+                "row": 1,
+                "col": 1,
+                "letter": "I"
+            },
+            {
+                "id": 15,
+                "row": 1,
+                "col": 2,
+                "letter": "N"
+            },
+            {
+                "id": 16,
+                "row": 1,
+                "col": 3,
+                "letter": "G",
+                "label": "3"
+            },
+            {
+                "id": 17,
+                "row": 0,
+                "col": 1,
+                "letter": "B",
+                "label": "2"
+            },
+            {
+                "id": 18,
+                "row": 2,
+                "col": 1,
+                "letter": "G"
+            },
+            {
+                "id": 19,
+                "row": 2,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 20,
+                "row": 3,
+                "col": 3,
+                "letter": "M"
+            },
+            {
+                "id": 21,
+                "row": 4,
+                "col": 3,
+                "letter": "E"
+            }
+        ]
+    },
+    {
+        "levelNumber": 4,
+        "questions": [
+            {
+                "id": 12,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'anggur'",
+                "answer": "GRAPE"
+            },
+            {
+                "id": 13,
+                "direction": "1. Menurun",
+                "question": "Bahasa Inggrisnya 'taman'",
+                "answer": "GARDEN"
+            },
+            {
+                "id": 14,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'pena'",
+                "answer": "PEN"
+            }
+        ],
+        "answers": [
+            {
+                "id": 22,
+                "row": 0,
+                "col": 0,
+                "letter": "G",
+                "label": "1"
+            },
+            {
+                "id": 23,
+                "row": 0,
+                "col": 1,
+                "letter": "R"
+            },
+            {
+                "id": 24,
+                "row": 0,
+                "col": 2,
+                "letter": "A"
+            },
+            {
+                "id": 25,
+                "row": 0,
+                "col": 3,
+                "letter": "P",
+                "label": "2"
+            },
+            {
+                "id": 26,
+                "row": 0,
+                "col": 4,
+                "letter": "E"
+            },
+            {
+                "id": 27,
+                "row": 1,
+                "col": 0,
+                "letter": "A"
+            },
+            {
+                "id": 28,
+                "row": 2,
+                "col": 0,
+                "letter": "R"
+            },
+            {
+                "id": 29,
+                "row": 3,
+                "col": 0,
+                "letter": "D"
+            },
+            {
+                "id": 30,
+                "row": 4,
+                "col": 0,
+                "letter": "E"
+            },
+            {
+                "id": 31,
+                "row": 5,
+                "col": 0,
+                "letter": "N"
+            },
+            {
+                "id": 32,
+                "row": 1,
+                "col": 3,
+                "letter": "E"
+            },
+            {
+                "id": 33,
+                "row": 2,
+                "col": 3,
+                "letter": "N"
+            }
+        ]
+    },
+    {
+        "levelNumber": 5,
+        "questions": [
+            {
+                "id": 15,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'apel'",
+                "answer": "APPLE"
+            },
+            {
+                "id": 16,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'tempat'",
+                "answer": "PLACE"
+            },
+            {
+                "id": 17,
+                "direction": "3. Menurun",
+                "question": "Bahasa Inggrisnya 'besar'",
+                "answer": "LARGE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 34,
+                "row": 0,
+                "col": 0,
+                "letter": "A",
+                "label": "1"
+            },
+            {
+                "id": 35,
+                "row": 0,
+                "col": 1,
+                "letter": "P",
+                "label": "2"
+            },
+            {
+                "id": 36,
+                "row": 0,
+                "col": 2,
+                "letter": "P"
+            },
+            {
+                "id": 37,
+                "row": 0,
+                "col": 3,
+                "letter": "L",
+                "label": "3"
+            },
+            {
+                "id": 38,
+                "row": 0,
+                "col": 4,
+                "letter": "E"
+            },
+            {
+                "id": 39,
+                "row": 1,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 40,
+                "row": 2,
+                "col": 3,
+                "letter": "R"
+            },
+            {
+                "id": 41,
+                "row": 3,
+                "col": 3,
+                "letter": "G"
+            },
+            {
+                "id": 42,
+                "row": 4,
+                "col": 3,
+                "letter": "E"
+            },
+            {
+                "id": 43,
+                "row": 1,
+                "col": 1,
+                "letter": "L"
+            },
+            {
+                "id": 44,
+                "row": 2,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 45,
+                "row": 3,
+                "col": 1,
+                "letter": "C"
+            },
+            {
+                "id": 46,
+                "row": 4,
+                "col": 1,
+                "letter": "E"
+            }
+        ]
+    },
+    {
+        "levelNumber": 6,
+        "questions": [
+            {
+                "id": 18,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'rumah'",
+                "answer": "HOUSE"
+            },
+            {
+                "id": 19,
+                "direction": "2. Mendatar",
+                "question": "Bahasa Inggrisnya 'tikus'",
+                "answer": "MOUSE"
+            },
+            {
+                "id": 20,
+                "direction": "3. Menurun",
+                "question": "Bahasa Inggrisnya 'berbagi'",
+                "answer": "SHARE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 47,
+                "row": 0,
+                "col": 1,
+                "letter": "H",
+                "label": "1"
+            },
+            {
+                "id": 48,
+                "row": 0,
+                "col": 2,
+                "letter": "O"
+            },
+            {
+                "id": 49,
+                "row": 0,
+                "col": 3,
+                "letter": "U"
+            },
+            {
+                "id": 50,
+                "row": 0,
+                "col": 4,
+                "letter": "S",
+                "label": "3"
+            },
+            {
+                "id": 51,
+                "row": 0,
+                "col": 5,
+                "letter": "E"
+            },
+            {
+                "id": 57,
+                "row": 4,
+                "col": 0,
+                "letter": "M",
+                "label": "2"
+            },
+            {
+                "id": 58,
+                "row": 4,
+                "col": 1,
+                "letter": "O"
+            },
+            {
+                "id": 59,
+                "row": 4,
+                "col": 2,
+                "letter": "U"
+            },
+            {
+                "id": 60,
+                "row": 4,
+                "col":3,
+                "letter": "S"
+            },
+            {
+                "id": 61,
+                "row": 4,
+                "col": 4,
+                "letter": "E"
+            },
+            {
+                "id": 62,
+                "row": 1,
+                "col": 4,
+                "letter": "H"
+            },
+            {
+                "id": 63,
+                "row": 2,
+                "col": 4,
+                "letter": "A"
+            },
+            {
+                "id": 64,
+                "row": 3,
+                "col": 4,
+                "letter": "R"
+            }
+        ]
+    },
+    {
+        "levelNumber": 7,
+        "questions": [
+            {
+                "id": 21,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'roti'",
+                "answer": "BREAD"
+            },
+            {
+                "id": 22,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'siap'",
+                "answer": "READY"
+            },
+            {
+                "id": 23,
+                "direction": "3. Mendatar",
+                "question": "Bahasa Inggrisnya 'mengemudi'",
+                "answer": "DRIVE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 66,
+                "row": 0,
+                "col": 0,
+                "letter": "B",
+                "label": "1"
+            },
+            {
+                "id": 67,
+                "row": 0,
+                "col": 1,
+                "letter": "R",
+                "label": "2"
+            },
+            {
+                "id": 68,
+                "row": 0,
+                "col": 2,
+                "letter": "E"
+            },
+            {
+                "id": 69,
+                "row": 0,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 70,
+                "row": 0,
+                "col": 4,
+                "letter": "D"
+            },
+            {
+                "id": 71,
+                "row": 1,
+                "col": 1,
+                "letter": "E"
+            },
+            {
+                "id": 72,
+                "row": 2,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 73,
+                "row": 3,
+                "col": 1,
+                "letter": "D",
+                "label": "3"
+            },
+            {
+                "id": 74,
+                "row": 4,
+                "col": 1,
+                "letter": "Y"
+            },
+            {
+                "id": 75,
+                "row": 3,
+                "col": 2,
+                "letter": "R"
+            },
+            {
+                "id": 76,
+                "row": 3,
+                "col": 3,
+                "letter": "I"
+            },
+            {
+                "id": 77,
+                "row": 3,
+                "col": 4,
+                "letter": "V"
+            },
+            {
+                "id": 78,
+                "row": 3,
+                "col": 5,
+                "letter": "E"
+            }
+        ]
+    },
+    {
+        "levelNumber": 8,
+        "questions": [
+            {
+                "id": 24,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'buah'",
+                "answer": "FRUIT"
+            },
+            {
+                "id": 25,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'rasa'",
+                "answer": "TASTE"
+            },
+            {
+                "id": 26,
+                "direction": "3. Mendatar",
+                "question": "Bahasa Inggrisnya 'jus'",
+                "answer": "JUICE"
+            },
+
+        ],
+        "answers": [
+            {
+                "id": 79,
+                "row": 0,
+                "col": 0,
+                "letter": "F",
+                "label": "1"
+            },
+            {
+                "id": 80,
+                "row": 0,
+                "col": 1,
+                "letter": "R"
+            },
+            {
+                "id": 81,
+                "row": 0,
+                "col": 2,
+                "letter": "U"
+            },
+            {
+                "id": 82,
+                "row": 0,
+                "col": 3,
+                "letter": "I"
+            },
+            {
+                "id": 83,
+                "row": 0,
+                "col": 4,
+                "letter": "T",
+                "label": "2"
+            },
+            {
+                "id": 84,
+                "row": 1,
+                "col": 4,
+                "letter": "A"
+            },
+            {
+                "id": 85,
+                "row": 2,
+                "col": 4,
+                "letter": "S"
+            },
+            {
+                "id": 86,
+                "row": 3,
+                "col": 4,
+                "letter": "T"
+            },
+            {
+                "id": 87,
+                "row": 4,
+                "col": 4,
+                "letter": "E"
+            },
+            {
+                "id": 88,
+                "row": 4,
+                "col": 0,
+                "letter": "J",
+                "label": "3"
+            },
+            {
+                "id": 89,
+                "row": 4,
+                "col": 1,
+                "letter": "U"
+            },
+            {
+                "id": 90,
+                "row": 4,
+                "col": 2,
+                "letter": "I"
+            },
+            {
+                "id": 91,
+                "row": 4,
+                "col": 3,
+                "letter": "C"
+            }
+        ]
+    },
+    {
+        "levelNumber": 9,
+        "questions": [
+            {
+                "id": 27,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'kursi'",
+                "answer": "CHAIR"
+            },
+            {
+                "id": 28,
+                "direction": "1. Menurun",
+                "question": "Bahasa Inggrisnya 'Jas'",
+                "answer": "COAT"
+            },
+            {
+                "id": 29,
+                "direction": "2. Mendatar",
+                "question": "Bahasa Inggrisnya 'meja'",
+                "answer": "TABLE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 93,
+                "row": 0,
+                "col": 0,
+                "letter": "C",
+                "label": "1"
+            },
+            {
+                "id": 94,
+                "row": 0,
+                "col": 1,
+                "letter": "H"
+            },
+            {
+                "id": 95,
+                "row": 0,
+                "col": 2,
+                "letter": "A"
+            },
+            {
+                "id": 96,
+                "row": 0,
+                "col": 3,
+                "letter": "I"
+            },
+            {
+                "id": 97,
+                "row": 0,
+                "col": 4,
+                "letter": "R"
+            },
+            {
+                "id": 98,
+                "row": 1,
+                "col": 0,
+                "letter": "O"
+            },
+            {
+                "id": 99,
+                "row": 2,
+                "col": 0,
+                "letter": "A"
+            },
+            {
+                "id": 100,
+                "row": 3,
+                "col": 0,
+                "letter": "T",
+                "label": "2"
+            },
+            {
+                "id": 101,
+                "row": 3,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 102,
+                "row": 3,
+                "col": 2,
+                "letter": "B"
+            },
+            {
+                "id": 103,
+                "row": 3,
+                "col": 3,
+                "letter": "L"
+            },
+            {
+                "id": 104,
+                "row": 3,
+                "col": 4,
+                "letter": "E"
+            }
+        ]
+    },
+    {
+        "levelNumber": 10,
+        "questions": [
+            {
+                "id": 30,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'suka'",
+                "answer": "LIKE"
+            },
+            {
+                "id": 31,
+                "direction": "1. Menurun",
+                "question": "Bahasa Inggrisnya 'cinta'",
+                "answer": "LOVE"
+            },
+            {
+                "id": 32,
+                "direction": "2. Mendatar",
+                "question": "Bahasa Inggrisnya 'hidup'",
+                "answer": "LIVE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 105,
+                "row": 0,
+                "col": 3,
+                "letter": "L",
+                "label": "1"
+            },
+            {
+                "id": 106,
+                "row": 0,
+                "col": 4,
+                "letter": "I"
+            },
+            {
+                "id": 107,
+                "row": 0,
+                "col": 5,
+                "letter": "K"
+            },
+            {
+                "id": 108,
+                "row": 0,
+                "col": 6,
+                "letter": "E"
+            },
+            {
+                "id": 109,
+                "row": 1,
+                "col": 3,
+                "letter": "O"
+            },
+            {
+                "id": 110,
+                "row": 2,
+                "col": 3,
+                "letter": "V"
+            },
+            {
+                "id": 111,
+                "row": 3,
+                "col": 3,
+                "letter": "E"
+            },
+            {
+                "id": 112,
+                "row": 3,
+                "col": 0,
+                "letter": "L",
+                "label": "2"
+            },
+            {
+                "id": 113,
+                "row": 3,
+                "col": 1,
+                "letter": "I"
+            },
+            {
+                "id": 114,
+                "row": 3,
+                "col": 2,
+                "letter": "V"
+            }
+        ]
+    },
+    {
+        "levelNumber": 11,
+        "questions": [
+            {
+                "id": 33,
+                "direction": "1. Menurun",
+                "question": "Bahasa Inggrisnya 'laut'",
+                "answer": "SEA"
+            },
+            {
+                "id": 34,
+                "direction": "2. Mendatar",
+                "question": "Bahasa Inggrisnya 'danau'",
+                "answer": "LAKE"
+            },
+            {
+                "id": 35,
+                "direction": "3. Mendatar",
+                "question": "Bahasa Inggrisnya 'sungai'",
+                "answer": "RIVER"
+            }
+        ],
+        "answers": [
+            {
+                "id": 115,
+                "row": 2,
+                "col": 1,
+                "letter": "S",
+                "label": "1"
+            },
+            {
+                "id": 116,
+                "row": 3,
+                "col": 1,
+                "letter": "E"
+            },
+            {
+                "id": 117,
+                "row": 4,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 118,
+                "row": 4,
+                "col": 0,
+                "letter": "L",
+                "label": "2"
+            },
+            {
+                "id": 119,
+                "row": 4,
+                "col": 2,
+                "letter": "K"
+            },
+            {
+                "id": 120,
+                "row": 4,
+                "col": 3,
+                "letter": "E"
+            },
+            {
+                "id": 121,
+                "row": 1,
+                "col": 3,
+                "letter": "R",
+                "label": "3"
+            },
+            {
+                "id": 122,
+                "row": 2,
+                "col": 3,
+                "letter": "I"
+            },
+            {
+                "id": 123,
+                "row": 3,
+                "col": 3,
+                "letter": "V"
+            },
+            {
+                "id": 125,
+                "row": 5,
+                "col": 3,
+                "letter": "R"
+            }
+        ]
+    },
+    {
+        "levelNumber": 12,
+        "questions": [
+            {
+                "id": 36,
+                "direction": "1. Menurun",
+                "question": "Bahasa Inggrisnya 'kota'",
+                "answer": "CITY"
+            },
+            {
+                "id": 37,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'negara'",
+                "answer": "COUNTRY"
+            },
+            {
+                "id": 38,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'bahasa'",
+                "answer": "LANGUAGE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 126,
+                "row": 0,
+                "col": 3,
+                "letter": "L",
+                "label": "2"
+            },
+            {
+                "id": 127,
+                "row": 1,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 128,
+                "row": 2,
+                "col": 3,
+                "letter": "N"
+            },
+            {
+                "id": 129,
+                "row": 3,
+                "col": 3,
+                "letter": "G"
+            },
+            {
+                "id": 130,
+                "row": 4,
+                "col": 3,
+                "letter": "U"
+            },
+            {
+                "id": 131,
+                "row": 5,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 132,
+                "row": 6,
+                "col": 3,
+                "letter": "G"
+            },
+            {
+                "id": 133,
+                "row": 7,
+                "col": 3,
+                "letter": "E"
+            },
+            {
+                "id": 134,
+                "row": 2,
+                "col": 0,
+                "letter": "C",
+                "label": "1"
+            },
+            {
+                "id": 135,
+                "row": 2,
+                "col": 1,
+                "letter": "O"
+            },
+            {
+                "id": 136,
+                "row": 2,
+                "col": 2,
+                "letter": "U"
+            },
+            {
+                "id": 137,
+                "row": 2,
+                "col": 3,
+                "letter": "N"
+            },
+            {
+                "id": 138,
+                "row": 2,
+                "col": 4,
+                "letter": "T"
+            },
+            {
+                "id": 139,
+                "row": 2,
+                "col": 5,
+                "letter": "R"
+            },
+            {
+                "id": 140,
+                "row": 2,
+                "col": 6,
+                "letter": "Y"
+            },
+            {
+                "id": 141,
+                "row": 3,
+                "col": 0,
+                "letter": "I"
+            },
+            {
+                "id": 142,
+                "row": 4,
+                "col": 0,
+                "letter": "T"
+            },
+            {
+                "id": 143,
+                "row": 5,
+                "col": 0,
+                "letter": "Y"
+            }
+        ]
+    },
+    {
+        "levelNumber": 13,
+        "questions": [
+            {
+                "id": 39,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'pasar'",
+                "answer": "MARKET"
+            },
+            {
+                "id": 40,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'sayur'",
+                "answer": "VEGETABLE"
+            }
+        ],
+        "answers": [
+            {
+                "id": 144,
+                "row": 0,
+                "col": 1,
+                "letter": "V",
+                "label": "2"
+            },
+            {
+                "id": 145,
+                "row": 1,
+                "col": 1,
+                "letter": "E"
+            },
+            {
+                "id": 146,
+                "row": 2,
+                "col": 1,
+                "letter": "G"
+            },
+            {
+                "id": 147,
+                "row": 3,
+                "col": 1,
+                "letter": "E"
+            },
+            {
+                "id": 148,
+                "row": 4,
+                "col": 1,
+                "letter": "T"
+            },
+            {
+                "id": 149,
+                "row": 5,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 150,
+                "row": 6,
+                "col": 1,
+                "letter": "B"
+            },
+            {
+                "id": 151,
+                "row": 7,
+                "col": 1,
+                "letter": "L"
+            },
+            {
+                "id": 152,
+                "row": 8,
+                "col": 1,
+                "letter": "E"
+            },
+            {
+                "id": 153,
+                "row": 5,
+                "col": 0,
+                "letter": "M",
+                "label": "1"
+            },
+            {
+                "id": 154,
+                "row": 5,
+                "col": 2,
+                "letter": "R"
+            },
+            {
+                "id": 155,
+                "row": 5,
+                "col": 3,
+                "letter": "K"
+            },
+            {
+                "id": 156,
+                "row": 5,
+                "col": 4,
+                "letter": "E"
+            },
+            {
+                "id": 157,
+                "row": 5,
+                "col": 5,
+                "letter": "T"
+            }
+        ]
+    },
+    {
+        "levelNumber": 14,
+        "questions": [
+            {
+                "id": 41,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'wortel'",
+                "answer": "CARROT"
+            },
+            {
+                "id": 42,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'tomat'",
+                "answer": "TOMATO"
+            },
+            {
+                "id": 43,
+                "direction": "3. Mendatar",
+                "question": "Bahasa Inggrisnya 'kentang'",
+                "answer": "POTATO"
+            }
+        ],
+        "answers": [
+            {
+                "id": 158,
+                "row": 0,
+                "col": 0,
+                "letter": "C",
+                "label": "1"
+            },
+            {
+                "id": 159,
+                "row": 0,
+                "col": 1,
+                "letter": "A"
+            },
+            {
+                "id": 160,
+                "row": 0,
+                "col": 2,
+                "letter": "R"
+            },
+            {
+                "id": 161,
+                "row": 0,
+                "col": 3,
+                "letter": "R"
+            },
+            {
+                "id": 162,
+                "row": 0,
+                "col": 4,
+                "letter": "O"
+            },
+            {
+                "id": 163,
+                "row": 0,
+                "col": 5,
+                "letter": "T",
+                "label": "2"
+            },
+            {
+                "id": 164,
+                "row": 1,
+                "col": 5,
+                "letter": "O"
+            },
+            {
+                "id": 165,
+                "row": 2,
+                "col": 5,
+                "letter": "M"
+            },
+            {
+                "id": 166,
+                "row": 3,
+                "col": 5,
+                "letter": "A"
+            },
+            {
+                "id": 167,
+                "row": 4,
+                "col": 5,
+                "letter": "T"
+            },
+            {
+                "id": 168,
+                "row": 5,
+                "col": 5,
+                "letter": "O"
+            },
+            {
+                "id": 169,
+                "row": 5,
+                "col": 0,
+                "letter": "P",
+                "label": "3"
+            },
+            {
+                "id": 170,
+                "row": 5,
+                "col": 1,
+                "letter": "O"
+            },
+            {
+                "id": 171,
+                "row": 5,
+                "col": 2,
+                "letter": "T"
+            },
+            {
+                "id": 172,
+                "row": 5,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 173,
+                "row": 5,
+                "col": 4,
+                "letter": "T"
+            }
+        ]
+    },
+    {
+        "levelNumber": 15,
+        "questions": [
+            {
+                "id": 44,
+                "direction": "1. Mendatar",
+                "question": "Bahasa Inggrisnya 'ayam'",
+                "answer": "CHICKEN"
+            },
+            {
+                "id": 45,
+                "direction": "1. Menurun",
+                "question": "Bahasa Inggrisnya 'sapi'",
+                "answer": "COW"
+            },
+            {
+                "id": 46,
+                "direction": "2. Menurun",
+                "question": "Bahasa Inggrisnya 'kepiting'",
+                "answer": "CRAB"
+            }
+        ],
+        "answers": [
+            {
+                "id": 174,
+                "row": 0,
+                "col": 0,
+                "letter": "C",
+                "label": "1"
+            },
+            {
+                "id": 175,
+                "row": 0,
+                "col": 1,
+                "letter": "H"
+            },
+            {
+                "id": 176,
+                "row": 0,
+                "col": 2,
+                "letter": "I"
+            },
+            {
+                "id": 177,
+                "row": 0,
+                "col": 3,
+                "letter": "C",
+                "label": "2"
+            },
+            {
+                "id": 178,
+                "row": 0,
+                "col": 4,
+                "letter": "K"
+            },
+            {
+                "id": 179,
+                "row": 0,
+                "col": 5,
+                "letter": "E"
+            },
+            {
+                "id": 180,
+                "row": 0,
+                "col": 6,
+                "letter": "N"
+            },
+            {
+                "id": 181,
+                "row": 1,
+                "col": 0,
+                "letter": "O"
+            },
+            {
+                "id": 182,
+                "row": 2,
+                "col": 0,
+                "letter": "W"
+            },
+            {
+                "id": 183,
+                "row": 1,
+                "col": 3,
+                "letter": "R"
+            },
+            {
+                "id": 184,
+                "row": 2,
+                "col": 3,
+                "letter": "A"
+            },
+            {
+                "id": 185,
+                "row": 3,
+                "col": 3,
+                "letter": "B"
+            }
+        ]
+    }
+]

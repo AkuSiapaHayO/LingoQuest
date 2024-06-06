@@ -31,6 +31,39 @@
 		04A646CB2C11A7EF0019C5CF /* BlankSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */; };
 		04A646CD2C11A8030019C5CF /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646CC2C11A8030019C5CF /* LevelView.swift */; };
 		04A646D22C11A8B70019C5CF /* BlankSpaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */; };
+		04A646D92C11CB8E0019C5CF /* CrosswordLevel.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */; };
+		04A646DA2C11CB8E0019C5CF /* CrosswordLevel.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */; };
+		04A646DC2C11CBC40019C5CF /* CrosswordAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DB2C11CBC40019C5CF /* CrosswordAnswerModel.swift */; };
+		04A646DE2C11CBE10019C5CF /* CrosswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DD2C11CBE10019C5CF /* CrosswordCell.swift */; };
+		04A646E02C11CBF80019C5CF /* CrosswordLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DF2C11CBF80019C5CF /* CrosswordLevelModel.swift */; };
+		04A646E22C11CC0A0019C5CF /* CrosswordQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E12C11CC0A0019C5CF /* CrosswordQuestionModel.swift */; };
+		04A646E42C11CD0A0019C5CF /* CrosswordLevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E32C11CD0A0019C5CF /* CrosswordLevelsViewModel.swift */; };
+		04A646E62C11CD2F0019C5CF /* CrosswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E52C11CD2F0019C5CF /* CrosswordViewModel.swift */; };
+		04A646E82C11CD660019C5CF /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E72C11CD660019C5CF /* CellView.swift */; };
+		04A646EA2C11CDB80019C5CF /* CrosswordLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E92C11CDB80019C5CF /* CrosswordLevelsView.swift */; };
+		04A646EC2C11CDD40019C5CF /* CrosswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646EB2C11CDD40019C5CF /* CrosswordView.swift */; };
+		04A646EE2C11CDE00019C5CF /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646ED2C11CDE00019C5CF /* CustomTextField.swift */; };
+		04A646EF2C11D22D0019C5CF /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646AB2C11A3660019C5CF /* LevelsViewModel.swift */; };
+		04A646F32C11D43C0019C5CF /* CellViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646F22C11D43C0019C5CF /* CellViewMac.swift */; };
+		04A646F52C11D48A0019C5CF /* CrosswordDetailViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646F42C11D48A0019C5CF /* CrosswordDetailViewMac.swift */; };
+		04A646F82C11D4AE0019C5CF /* CrosswordLevelsViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646F72C11D4AE0019C5CF /* CrosswordLevelsViewMac.swift */; };
+		04A646FA2C11D4CE0019C5CF /* CrosswordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646F92C11D4CE0019C5CF /* CrosswordViewMac.swift */; };
+		04A646FC2C11D4EE0019C5CF /* CustomTextFieldMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646FB2C11D4EE0019C5CF /* CustomTextFieldMac.swift */; };
+		04A646FD2C11D5290019C5CF /* CrosswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DD2C11CBE10019C5CF /* CrosswordCell.swift */; };
+		04A646FE2C11D52D0019C5CF /* CrosswordAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DB2C11CBC40019C5CF /* CrosswordAnswerModel.swift */; };
+		04A646FF2C11D5300019C5CF /* CrosswordLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DF2C11CBF80019C5CF /* CrosswordLevelModel.swift */; };
+		04A647002C11D5330019C5CF /* CrosswordQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E12C11CC0A0019C5CF /* CrosswordQuestionModel.swift */; };
+		04A647012C11D5390019C5CF /* CrosswordLevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E32C11CD0A0019C5CF /* CrosswordLevelsViewModel.swift */; };
+		04A647022C11D5390019C5CF /* CrosswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646E52C11CD2F0019C5CF /* CrosswordViewModel.swift */; };
+		04A647032C11D5B10019C5CF /* LevelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646A52C11A3660019C5CF /* LevelData.swift */; };
+		04A647092C11D71A0019C5CF /* BlankSpaceViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A647082C11D71A0019C5CF /* BlankSpaceViewMac.swift */; };
+		04A6470B2C11D7460019C5CF /* LevelDetailViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6470A2C11D7460019C5CF /* LevelDetailViewMac.swift */; };
+		04A6470D2C11D75A0019C5CF /* LevelViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6470C2C11D75A0019C5CF /* LevelViewMac.swift */; };
+		04A6470E2C11D7860019C5CF /* BlankSpaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */; };
+		04A6470F2C11D7860019C5CF /* BlankSpaceLevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646C72C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift */; };
+		04A647102C11D7860019C5CF /* BlankSpaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646C42C11A7B80019C5CF /* BlankSpaceViewModel.swift */; };
+		04A647112C11D7860019C5CF /* levels.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646BF2C11A7250019C5CF /* levels.json */; };
+		04A647122C11D7900019C5CF /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646AE2C11A3660019C5CF /* words.json */; };
 		CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */; };
 		CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */; };
 		CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */; };
@@ -63,6 +96,25 @@
 		04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceView.swift; sourceTree = "<group>"; };
 		04A646CC2C11A8030019C5CF /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceModel.swift; sourceTree = "<group>"; };
+		04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CrosswordLevel.json; sourceTree = "<group>"; };
+		04A646DB2C11CBC40019C5CF /* CrosswordAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordAnswerModel.swift; sourceTree = "<group>"; };
+		04A646DD2C11CBE10019C5CF /* CrosswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordCell.swift; sourceTree = "<group>"; };
+		04A646DF2C11CBF80019C5CF /* CrosswordLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelModel.swift; sourceTree = "<group>"; };
+		04A646E12C11CC0A0019C5CF /* CrosswordQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordQuestionModel.swift; sourceTree = "<group>"; };
+		04A646E32C11CD0A0019C5CF /* CrosswordLevelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelsViewModel.swift; sourceTree = "<group>"; };
+		04A646E52C11CD2F0019C5CF /* CrosswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordViewModel.swift; sourceTree = "<group>"; };
+		04A646E72C11CD660019C5CF /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		04A646E92C11CDB80019C5CF /* CrosswordLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelsView.swift; sourceTree = "<group>"; };
+		04A646EB2C11CDD40019C5CF /* CrosswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordView.swift; sourceTree = "<group>"; };
+		04A646ED2C11CDE00019C5CF /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		04A646F22C11D43C0019C5CF /* CellViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewMac.swift; sourceTree = "<group>"; };
+		04A646F42C11D48A0019C5CF /* CrosswordDetailViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordDetailViewMac.swift; sourceTree = "<group>"; };
+		04A646F72C11D4AE0019C5CF /* CrosswordLevelsViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelsViewMac.swift; sourceTree = "<group>"; };
+		04A646F92C11D4CE0019C5CF /* CrosswordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordViewMac.swift; sourceTree = "<group>"; };
+		04A646FB2C11D4EE0019C5CF /* CustomTextFieldMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldMac.swift; sourceTree = "<group>"; };
+		04A647082C11D71A0019C5CF /* BlankSpaceViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceViewMac.swift; sourceTree = "<group>"; };
+		04A6470A2C11D7460019C5CF /* LevelDetailViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDetailViewMac.swift; sourceTree = "<group>"; };
+		04A6470C2C11D75A0019C5CF /* LevelViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewModelMac.swift; sourceTree = "<group>"; };
@@ -107,6 +159,7 @@
 		04A6467B2C1185400019C5CF /* LingoQuest */ = {
 			isa = PBXGroup;
 			children = (
+				04A646D42C11CB440019C5CF /* Crossword */,
 				04A646BB2C11A6B70019C5CF /* BlankSpace */,
 				04A646AF2C11A3660019C5CF /* SayTheWord */,
 				04A6469D2C1187730019C5CF /* Components */,
@@ -130,6 +183,8 @@
 		04A6468F2C11868F0019C5CF /* LingoQuestMac */ = {
 			isa = PBXGroup;
 			children = (
+				04A647062C11D6F80019C5CF /* BlankSpace */,
+				04A646F02C11D41A0019C5CF /* Crossword */,
 				CBF6DC0E2C119DD4009765DB /* SayTheWord */,
 				04A646902C11868F0019C5CF /* LingoQuestMacApp.swift */,
 				04A646922C11868F0019C5CF /* ContentView.swift */,
@@ -228,6 +283,86 @@
 			children = (
 				04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */,
 				04A646CC2C11A8030019C5CF /* LevelView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A646D42C11CB440019C5CF /* Crossword */ = {
+			isa = PBXGroup;
+			children = (
+				04A646D72C11CB6D0019C5CF /* View */,
+				04A646D62C11CB620019C5CF /* View Model */,
+				04A646D52C11CB5A0019C5CF /* Model */,
+				04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */,
+			);
+			path = Crossword;
+			sourceTree = "<group>";
+		};
+		04A646D52C11CB5A0019C5CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A646DB2C11CBC40019C5CF /* CrosswordAnswerModel.swift */,
+				04A646DD2C11CBE10019C5CF /* CrosswordCell.swift */,
+				04A646DF2C11CBF80019C5CF /* CrosswordLevelModel.swift */,
+				04A646E12C11CC0A0019C5CF /* CrosswordQuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A646D62C11CB620019C5CF /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A646E32C11CD0A0019C5CF /* CrosswordLevelsViewModel.swift */,
+				04A646E52C11CD2F0019C5CF /* CrosswordViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		04A646D72C11CB6D0019C5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A646E72C11CD660019C5CF /* CellView.swift */,
+				04A646E92C11CDB80019C5CF /* CrosswordLevelsView.swift */,
+				04A646EB2C11CDD40019C5CF /* CrosswordView.swift */,
+				04A646ED2C11CDE00019C5CF /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A646F02C11D41A0019C5CF /* Crossword */ = {
+			isa = PBXGroup;
+			children = (
+				04A646F12C11D4220019C5CF /* View */,
+			);
+			path = Crossword;
+			sourceTree = "<group>";
+		};
+		04A646F12C11D4220019C5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A646F22C11D43C0019C5CF /* CellViewMac.swift */,
+				04A646F42C11D48A0019C5CF /* CrosswordDetailViewMac.swift */,
+				04A646F72C11D4AE0019C5CF /* CrosswordLevelsViewMac.swift */,
+				04A646F92C11D4CE0019C5CF /* CrosswordViewMac.swift */,
+				04A646FB2C11D4EE0019C5CF /* CustomTextFieldMac.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A647062C11D6F80019C5CF /* BlankSpace */ = {
+			isa = PBXGroup;
+			children = (
+				04A647072C11D7020019C5CF /* View */,
+			);
+			path = BlankSpace;
+			sourceTree = "<group>";
+		};
+		04A647072C11D7020019C5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A647082C11D71A0019C5CF /* BlankSpaceViewMac.swift */,
+				04A6470A2C11D7460019C5CF /* LevelDetailViewMac.swift */,
+				04A6470C2C11D75A0019C5CF /* LevelViewMac.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A646B62C11A3660019C5CF /* words.json in Resources */,
+				04A646D92C11CB8E0019C5CF /* CrosswordLevel.json in Resources */,
 				04A646842C1185430019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646C02C11A7250019C5CF /* levels.json in Resources */,
 				04A646812C1185430019C5CF /* Assets.xcassets in Resources */,
@@ -350,6 +486,9 @@
 			files = (
 				04A646982C1186920019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646952C1186920019C5CF /* Assets.xcassets in Resources */,
+				04A647112C11D7860019C5CF /* levels.json in Resources */,
+				04A646DA2C11CB8E0019C5CF /* CrosswordLevel.json in Resources */,
+				04A647122C11D7900019C5CF /* words.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,21 +499,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A646E82C11CD660019C5CF /* CellView.swift in Sources */,
 				04A646B52C11A3660019C5CF /* SayTheWordViewModel.swift in Sources */,
 				04A646B32C11A3660019C5CF /* SayTheWordView.swift in Sources */,
+				04A646E42C11CD0A0019C5CF /* CrosswordLevelsViewModel.swift in Sources */,
 				04A646B12C11A3660019C5CF /* SpeechRecognizer.swift in Sources */,
 				04A646CD2C11A8030019C5CF /* LevelView.swift in Sources */,
+				04A646EA2C11CDB80019C5CF /* CrosswordLevelsView.swift in Sources */,
 				04A646C52C11A7B80019C5CF /* BlankSpaceViewModel.swift in Sources */,
 				04A646B22C11A3660019C5CF /* Levelsview.swift in Sources */,
+				04A646EE2C11CDE00019C5CF /* CustomTextField.swift in Sources */,
 				04A646B02C11A3660019C5CF /* LevelData.swift in Sources */,
+				04A646DE2C11CBE10019C5CF /* CrosswordCell.swift in Sources */,
 				04A6467F2C1185400019C5CF /* ContentView.swift in Sources */,
+				04A646E02C11CBF80019C5CF /* CrosswordLevelModel.swift in Sources */,
 				04A6467D2C1185400019C5CF /* LingoQuestApp.swift in Sources */,
 				04A646B82C11A3CE0019C5CF /* SplashScreenView.swift in Sources */,
 				04A646CB2C11A7EF0019C5CF /* BlankSpaceView.swift in Sources */,
+				04A646E22C11CC0A0019C5CF /* CrosswordQuestionModel.swift in Sources */,
 				04A646C82C11A7CE0019C5CF /* BlankSpaceLevelViewModel.swift in Sources */,
+				04A646DC2C11CBC40019C5CF /* CrosswordAnswerModel.swift in Sources */,
 				04A646D22C11A8B70019C5CF /* BlankSpaceModel.swift in Sources */,
 				04A6469F2C11882B0019C5CF /* CustomButton.swift in Sources */,
+				04A646E62C11CD2F0019C5CF /* CrosswordViewModel.swift in Sources */,
 				04A646B42C11A3660019C5CF /* LevelsViewModel.swift in Sources */,
+				04A646EC2C11CDD40019C5CF /* CrosswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +531,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A646F32C11D43C0019C5CF /* CellViewMac.swift in Sources */,
 				CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */,
+				04A646FD2C11D5290019C5CF /* CrosswordCell.swift in Sources */,
 				04A646932C11868F0019C5CF /* ContentView.swift in Sources */,
+				04A6470E2C11D7860019C5CF /* BlankSpaceModel.swift in Sources */,
+				04A6470F2C11D7860019C5CF /* BlankSpaceLevelViewModel.swift in Sources */,
+				04A647102C11D7860019C5CF /* BlankSpaceViewModel.swift in Sources */,
+				04A646EF2C11D22D0019C5CF /* LevelsViewModel.swift in Sources */,
+				04A647012C11D5390019C5CF /* CrosswordLevelsViewModel.swift in Sources */,
+				04A647022C11D5390019C5CF /* CrosswordViewModel.swift in Sources */,
 				04A646912C11868F0019C5CF /* LingoQuestMacApp.swift in Sources */,
+				04A647002C11D5330019C5CF /* CrosswordQuestionModel.swift in Sources */,
+				04A647032C11D5B10019C5CF /* LevelData.swift in Sources */,
+				04A6470B2C11D7460019C5CF /* LevelDetailViewMac.swift in Sources */,
+				04A646F52C11D48A0019C5CF /* CrosswordDetailViewMac.swift in Sources */,
 				CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */,
 				CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */,
+				04A646FF2C11D5300019C5CF /* CrosswordLevelModel.swift in Sources */,
+				04A646FC2C11D4EE0019C5CF /* CustomTextFieldMac.swift in Sources */,
+				04A646F82C11D4AE0019C5CF /* CrosswordLevelsViewMac.swift in Sources */,
+				04A646FA2C11D4CE0019C5CF /* CrosswordViewMac.swift in Sources */,
+				04A646FE2C11D52D0019C5CF /* CrosswordAnswerModel.swift in Sources */,
+				04A6470D2C11D75A0019C5CF /* LevelViewMac.swift in Sources */,
+				04A647092C11D71A0019C5CF /* BlankSpaceViewMac.swift in Sources */,
 				04A646A02C1189840019C5CF /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
