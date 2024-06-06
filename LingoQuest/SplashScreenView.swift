@@ -13,7 +13,7 @@ struct SplashScreenView: View {
     @State var isAnimating = false
     var body: some View {
         ZStack {
-            Color.white
+//            Color.white
             if self.isActive{
                 ContentView()
             } else{

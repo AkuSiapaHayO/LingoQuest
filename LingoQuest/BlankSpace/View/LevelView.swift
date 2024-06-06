@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct LevelView: View {
-    @ObservedObject var viewModel: LevelViewModel
+    @ObservedObject var viewModel: BlankSpaceLevelViewModel
 
     var body: some View {
-        NavigationView {
+//        NavigationView {
             VStack {
                 Spacer()
                 VStack {
@@ -47,11 +47,11 @@ struct LevelView: View {
                 viewModel.loadLevels()
             }
         }
-    }
+//    }
 }
 
 struct LevelView_Previews: PreviewProvider {
     static var previews: some View {
-        LevelView(viewModel: LevelViewModel())
+        LevelView(viewModel: BlankSpaceLevelViewModel())
     }
 }

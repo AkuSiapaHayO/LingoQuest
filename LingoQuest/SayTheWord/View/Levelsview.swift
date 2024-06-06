@@ -22,7 +22,8 @@ struct LevelsView: View {
             if UIDevice.current.userInterfaceIdiom == .pad {
                 NavigationSplitView {
                     levelsListView
-                } detail: {
+                }
+            detail: {
                     if let selectedLevel = selectedLevel {
                         SayTheWordView(viewModel: SayTheWordViewModel(level: selectedLevel, levelViewModel: levelsViewModel))
                             .onAppear {
@@ -35,7 +36,7 @@ struct LevelsView: View {
                     }
                 }
             } else {
-                NavigationStack {
+//                NavigationStack {
                     levelsListView
                         .navigationDestination(for: Int.self) { level in
                             SayTheWordView(viewModel: SayTheWordViewModel(level: level, levelViewModel: levelsViewModel))
@@ -43,7 +44,7 @@ struct LevelsView: View {
                                     levelsViewModel.loadLevels()
                                 }
                         }
-                }
+//                }
             }
         }
         .onAppear {
