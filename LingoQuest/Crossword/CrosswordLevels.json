@@ -327,7 +327,8 @@
                 "id": 35,
                 "row": 0,
                 "col": 1,
-                "letter": "P"
+                "letter": "P",
+                "label": "2"
             },
             {
                 "id": 36,
@@ -340,7 +341,7 @@
                 "row": 0,
                 "col": 3,
                 "letter": "L",
-                "label": "2"
+                "label": "3"
             },
             {
                 "id": 38,
