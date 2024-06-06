@@ -66,7 +66,7 @@ struct ContentView: View {
                         },
                         spacing: 100,
                         rectangleSize: 45,
-                        text: "Pronunciation",
+                        text: "Say The Word",
                         size: 45,
                         backgroundRectangle: LinearGradient(
                             stops: [
