@@ -31,8 +31,8 @@
 		04A646CB2C11A7EF0019C5CF /* BlankSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */; };
 		04A646CD2C11A8030019C5CF /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646CC2C11A8030019C5CF /* LevelView.swift */; };
 		04A646D22C11A8B70019C5CF /* BlankSpaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */; };
-		04A646D92C11CB8E0019C5CF /* CrosswordLevel.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */; };
-		04A646DA2C11CB8E0019C5CF /* CrosswordLevel.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */; };
+		04A646D92C11CB8E0019C5CF /* CrosswordLevels.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646D82C11CB8E0019C5CF /* CrosswordLevels.json */; };
+		04A646DA2C11CB8E0019C5CF /* CrosswordLevels.json in Resources */ = {isa = PBXBuildFile; fileRef = 04A646D82C11CB8E0019C5CF /* CrosswordLevels.json */; };
 		04A646DC2C11CBC40019C5CF /* CrosswordAnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DB2C11CBC40019C5CF /* CrosswordAnswerModel.swift */; };
 		04A646DE2C11CBE10019C5CF /* CrosswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DD2C11CBE10019C5CF /* CrosswordCell.swift */; };
 		04A646E02C11CBF80019C5CF /* CrosswordLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A646DF2C11CBF80019C5CF /* CrosswordLevelModel.swift */; };
@@ -96,7 +96,7 @@
 		04A646CA2C11A7EF0019C5CF /* BlankSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceView.swift; sourceTree = "<group>"; };
 		04A646CC2C11A8030019C5CF /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
 		04A646D12C11A8B70019C5CF /* BlankSpaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceModel.swift; sourceTree = "<group>"; };
-		04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CrosswordLevel.json; sourceTree = "<group>"; };
+		04A646D82C11CB8E0019C5CF /* CrosswordLevels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CrosswordLevels.json; sourceTree = "<group>"; };
 		04A646DB2C11CBC40019C5CF /* CrosswordAnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordAnswerModel.swift; sourceTree = "<group>"; };
 		04A646DD2C11CBE10019C5CF /* CrosswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordCell.swift; sourceTree = "<group>"; };
 		04A646DF2C11CBF80019C5CF /* CrosswordLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordLevelModel.swift; sourceTree = "<group>"; };
@@ -293,7 +293,7 @@
 				04A646D72C11CB6D0019C5CF /* View */,
 				04A646D62C11CB620019C5CF /* View Model */,
 				04A646D52C11CB5A0019C5CF /* Model */,
-				04A646D82C11CB8E0019C5CF /* CrosswordLevel.json */,
+				04A646D82C11CB8E0019C5CF /* CrosswordLevels.json */,
 			);
 			path = Crossword;
 			sourceTree = "<group>";
@@ -473,7 +473,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A646B62C11A3660019C5CF /* words.json in Resources */,
-				04A646D92C11CB8E0019C5CF /* CrosswordLevel.json in Resources */,
+				04A646D92C11CB8E0019C5CF /* CrosswordLevels.json in Resources */,
 				04A646842C1185430019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646C02C11A7250019C5CF /* levels.json in Resources */,
 				04A646812C1185430019C5CF /* Assets.xcassets in Resources */,
@@ -487,7 +487,7 @@
 				04A646982C1186920019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646952C1186920019C5CF /* Assets.xcassets in Resources */,
 				04A647112C11D7860019C5CF /* levels.json in Resources */,
-				04A646DA2C11CB8E0019C5CF /* CrosswordLevel.json in Resources */,
+				04A646DA2C11CB8E0019C5CF /* CrosswordLevels.json in Resources */,
 				04A647122C11D7900019C5CF /* words.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
