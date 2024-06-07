@@ -84,6 +84,7 @@ struct ContentView: View {
                 
                 Button(action: {
                     selectedView = .pronunciationLevels
+                    audioManager.pauseBackgroundSound()
                 }) {
                     HStack(spacing: 10) {
                         Rectangle()
@@ -165,7 +166,12 @@ struct ContentView: View {
             audioManager.playBackgroundSound(sound: "Cute Avalanche - RKVC", type: "mp3")
         }
         .onDisappear {
-            audioManager.stopBackgroundSound()
+            if selectedView != .pronunciationLevels {
+                audioManager.resumeBackgroundSound()
+            }
+            if selectedView != .blankSpaceLevels {
+                audioManager.resumeBackgroundSound()
+            }
         }
         .padding(15)
         .fullScreenCover(item: $selectedView) { view in
@@ -175,6 +181,7 @@ struct ContentView: View {
                     CrosswordLevelsView(viewModel: CrosswordLevelsViewModel())
                         .navigationBarItems(leading: Button(action: {
                             selectedView = nil
+                            audioManager.resumeBackgroundSound()
                         }) {
                             Image(systemName: "arrow.left")
                                 .foregroundColor(.blue)
@@ -187,6 +194,7 @@ struct ContentView: View {
                     LevelsView(levelsViewModel: LevelViewModel())
                         .navigationBarItems(leading: Button(action: {
                             selectedView = nil
+                            audioManager.resumeBackgroundSound()
                         }) {
                             Image(systemName: "arrow.left")
                                 .foregroundColor(.blue)
@@ -199,6 +207,7 @@ struct ContentView: View {
                     LevelView(viewModel: BlankSpaceLevelViewModel())
                         .navigationBarItems(leading: Button(action: {
                             selectedView = nil
+                            audioManager.resumeBackgroundSound()
                         }) {
                             Image(systemName: "arrow.left")
                                 .foregroundColor(.blue)
@@ -214,4 +223,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-

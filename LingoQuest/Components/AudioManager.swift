@@ -12,7 +12,7 @@ import SwiftUI
 class AudioManager: ObservableObject {
     static let shared = AudioManager()
     var player: AVAudioPlayer?
-
+    
     func playBackgroundSound(sound: String, type: String) {
         if let path = Bundle.main.path(forResource: sound, ofType: type) {
             do {
@@ -29,5 +29,17 @@ class AudioManager: ObservableObject {
     
     func stopBackgroundSound() {
         player?.stop()
+    }
+    
+    func pauseBackgroundSound() {
+        player?.pause()
+    }
+    
+    func resumeBackgroundSound() {
+        player?.play()
+    }
+    
+    func setVolume(_ volume: Float) {
+        player?.volume = volume
     }
 }

@@ -101,6 +101,10 @@ struct SayTheWordView: View {
             }
             .onAppear {
                 viewModel.loadLevel()
+                configureAudioSessionForRecording()
+            }
+            .onDisappear {
+                resetAudioSession()
             }
         }
     }
@@ -122,44 +126,44 @@ struct SayTheWordView: View {
     }
     
     private func titleFontSize() -> CGFloat {
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                return 60
-            } else {
-                return 30
-            }
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 60
+        } else {
+            return 30
         }
-        
-        private func headingFontSize() -> CGFloat {
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                return 40
-            } else {
-                return 20
-            }
+    }
+    
+    private func headingFontSize() -> CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 40
+        } else {
+            return 20
         }
-        
-        private func wordFontSize() -> CGFloat {
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                return 36
-            } else {
-                return 18
-            }
+    }
+    
+    private func wordFontSize() -> CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 36
+        } else {
+            return 18
         }
-        
-        private func subtitleFontSize() -> CGFloat {
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                return 36
-            } else {
-                return 12
-            }
+    }
+    
+    private func subtitleFontSize() -> CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 36
+        } else {
+            return 12
         }
-        
-        private func transcriptFontSize() -> CGFloat {
-            if UIDevice.current.userInterfaceIdiom == .pad {
-                return 36
-            } else {
-                return 14
-            }
+    }
+    
+    private func transcriptFontSize() -> CGFloat {
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 36
+        } else {
+            return 14
         }
+    }
     
     private func startTranscription() {
         viewModel.resetTranscript()
@@ -171,8 +175,28 @@ struct SayTheWordView: View {
         viewModel.stopListening()
         isRecording = false
     }
+    
+    private func configureAudioSessionForRecording() {
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.setCategory(.playAndRecord, mode: .default, options: [.defaultToSpeaker, .allowBluetooth])
+            try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
+        } catch {
+            print("Failed to configure audio session: \(error.localizedDescription)")
+        }
+    }
+    
+    private func resetAudioSession() {
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.setActive(false, options: .notifyOthersOnDeactivation)
+        } catch {
+            print("Failed to reset audio session: \(error.localizedDescription)")
+        }
+    }
 }
 
 #Preview {
     SayTheWordView(viewModel: SayTheWordViewModel(level: 1, levelViewModel: LevelViewModel()))
 }
+

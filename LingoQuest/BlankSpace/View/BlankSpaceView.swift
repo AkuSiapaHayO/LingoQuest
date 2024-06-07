@@ -5,18 +5,19 @@ struct BlankSpaceView: View {
     @State private var selectedWords: [String] = []
     @Environment(\.presentationMode) var presentationMode
     @Environment(\.colorScheme) var colorScheme
-
+    @StateObject private var audioManager = AudioManager.shared
+    
     var body: some View {
         VStack {
             VStack(spacing: 16) {
                 Spacer()
                 Text("Blank Space")
                     .font(.title)
-
+                
                 Text("Level \(viewModel.currentLevel)")
                     .font(.largeTitle)
                     .bold()
-
+                
                 ScrollView {
                     Text(viewModel.paragraph)
                         .multilineTextAlignment(.center)
@@ -26,7 +27,7 @@ struct BlankSpaceView: View {
                 }
                 .frame(maxHeight: 120) // Adjust this height as necessary
                 .padding(.top, 48)
-
+                
                 VStack {
                     // Wrapping words manually into rows
                     let rows = createRows(words: viewModel.choices)
@@ -56,9 +57,10 @@ struct BlankSpaceView: View {
                     }
                 }
                 .padding()
-
+                
                 Button(action: {
                     if viewModel.checkAnswer(selectedWords: selectedWords) {
+                        audioManager.setVolume(0.1)
                         viewModel.completeLevel()
                     } else {
                         selectedWords.removeAll()
@@ -79,6 +81,9 @@ struct BlankSpaceView: View {
             .onAppear {
                 viewModel.loadLevel()
             }
+            .onDisappear{
+                audioManager.setVolume(1.0)
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .alert(isPresented: $viewModel.showCompletionPopup) {
@@ -91,14 +96,14 @@ struct BlankSpaceView: View {
             )
         }
     }
-
+    
     // Helper function to create rows of words
     func createRows(words: [String]) -> [[String]] {
         var rows: [[String]] = []
         var currentRow: [String] = []
         var currentWidth: CGFloat = 0
         let maxWidth: CGFloat = UIScreen.main.bounds.width - 80 // Adjust this value as necessary
-
+        
         for word in words {
             let wordWidth = (word as NSString).size(withAttributes: [.font: UIFont.systemFont(ofSize: 17)]).width + 30 // Adjust padding as necessary
             if currentWidth + wordWidth > maxWidth {
@@ -110,11 +115,11 @@ struct BlankSpaceView: View {
                 currentWidth += wordWidth
             }
         }
-
+        
         if !currentRow.isEmpty {
             rows.append(currentRow)
         }
-
+        
         return rows
     }
 }
