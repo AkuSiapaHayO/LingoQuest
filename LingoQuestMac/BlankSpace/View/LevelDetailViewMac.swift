@@ -29,14 +29,7 @@ struct LevelDetailViewMac: View {
     }
 }
 
-struct ClearLevelDetailButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .background(Color.clear)
-            .cornerRadius(8)
-            .shadow(radius: 0) // Remove shadow
-    }
-}
+
 
 
 struct LevelDetailViewMac_Previews: PreviewProvider {

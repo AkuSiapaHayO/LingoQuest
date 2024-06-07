@@ -33,11 +33,5 @@ struct CrosswordDetailViewMac: View {
         .edgesIgnoringSafeArea(.all)
     }
     
-    struct ClearButtonStyle: ButtonStyle {
-        func makeBody(configuration: Configuration) -> some View {
-            configuration.label
-                .background(Color.clear)
-                .cornerRadius(8)
-        }
-    }
+    
 }

@@ -73,13 +73,7 @@ struct LevelViewMac: View {
     }
 }
 
-struct BlankSpaceClearLevelButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .background(Color.clear)
-            .cornerRadius(8)
-    }
-}
+
 
 //struct LevelViewMac_Previews: PreviewProvider {
 //    static var previews: some View {

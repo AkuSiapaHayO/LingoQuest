@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedView: SelectedView?
-    @StateObject private var audioManager = AudioManager.shared
     
     enum SelectedView: Identifiable {
         case crosswordLevels
@@ -160,17 +159,6 @@ struct ContentView: View {
                     .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
                     
                 }
-            }
-        }
-        .onAppear {
-            audioManager.playBackgroundSound(sound: "Cute Avalanche - RKVC", type: "mp3")
-        }
-        .onDisappear {
-            if selectedView != .pronunciationLevels {
-                audioManager.resumeBackgroundSound()
-            }
-            if selectedView != .blankSpaceLevels {
-                audioManager.resumeBackgroundSound()
             }
         }
         .padding(15)

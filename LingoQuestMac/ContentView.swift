@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedView: SelectedView?
-    @StateObject private var audioManager = AudioManager.shared
     
     enum SelectedView: Identifiable {
         case crosswordLevels
@@ -160,12 +159,6 @@ struct ContentView: View {
                 }
                 .buttonStyle(ClearButtonStyle())
             }
-        }
-        .onAppear {
-            audioManager.playBackgroundSound(sound: "Cute Avalanche - RKVC", type: "mp3")
-        }
-        .onDisappear {
-            audioManager.stopBackgroundSound()
         }
         .padding(15)
         .sheet(item: $selectedView) { view in
