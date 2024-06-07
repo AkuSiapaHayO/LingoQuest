@@ -23,7 +23,7 @@ struct LevelsDetailViewMac: View {
                         .padding()
                         .foregroundColor(.black)
                 }
-                .buttonStyle(ClearLevelsDetailButtonStyle()) 
+                .buttonStyle(ClearButtonStyle()) 
                 Spacer()
             }
             .background(Color(.white))
@@ -33,15 +33,6 @@ struct LevelsDetailViewMac: View {
             SayTheWordViewMac(viewModel: SayTheWordViewModelMac(level: level, levelViewModel: viewModel))        }
         .background(Color.white.opacity(1)) // Make background opaque
         .edgesIgnoringSafeArea(.all)
-    }
-}
-
-struct ClearLevelsDetailButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .background(Color.clear)
-            .cornerRadius(8)
-            .shadow(radius: 0) // Remove shadow
     }
 }
 

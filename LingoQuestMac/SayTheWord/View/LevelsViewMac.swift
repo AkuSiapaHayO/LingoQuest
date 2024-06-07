@@ -54,7 +54,7 @@ struct LevelsViewMac: View {
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                             }
-                            .buttonStyle(BlankSpaceClearLevelButtonStyle())
+                            .buttonStyle(ClearButtonStyle())
                             .disabled(!viewModel.isUnlocked(level: level))
                         }
                     }
@@ -76,14 +76,6 @@ struct LevelsViewMac: View {
             viewModel.loadLevels()
         }
         .background(Color.white)
-    }
-}
-
-struct SayTheWordClearLevelButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .background(Color.clear)
-            .cornerRadius(8)
     }
 }
 

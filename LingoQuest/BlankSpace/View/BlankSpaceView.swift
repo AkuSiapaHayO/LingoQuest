@@ -5,7 +5,6 @@ struct BlankSpaceView: View {
     @State private var selectedWords: [String] = []
     @Environment(\.presentationMode) var presentationMode
     @Environment(\.colorScheme) var colorScheme
-    @StateObject private var audioManager = AudioManager.shared
     
     var body: some View {
         VStack {
@@ -79,8 +78,6 @@ struct BlankSpaceView: View {
             }
             .onAppear {
                 viewModel.loadLevel()
-            }
-            .onDisappear{
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

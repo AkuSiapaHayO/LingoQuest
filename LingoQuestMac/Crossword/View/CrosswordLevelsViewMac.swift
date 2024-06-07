@@ -53,7 +53,7 @@ struct CrosswordLevelsViewMac: View {
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                             }
-                            .buttonStyle(ClearLevelButtonStyle())
+                            .buttonStyle(ClearButtonStyle())
                             .disabled(!viewModel.isUnlocked(level: level))
                         }
                     }
@@ -75,13 +75,5 @@ struct CrosswordLevelsViewMac: View {
             viewModel.loadLevels()
         }
         .background(Color.white)
-    }
-}
-
-struct ClearLevelButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .background(Color.clear)
-            .cornerRadius(8)
     }
 }

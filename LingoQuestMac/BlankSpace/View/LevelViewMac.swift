@@ -48,7 +48,7 @@ struct LevelViewMac: View {
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                             }
-                            .buttonStyle(BlankSpaceClearLevelButtonStyle())
+                            .buttonStyle(ClearButtonStyle())
                             .disabled(!viewModel.isUnlocked(level: level))
                         }
                     }
