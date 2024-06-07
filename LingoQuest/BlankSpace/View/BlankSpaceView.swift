@@ -28,7 +28,6 @@ struct BlankSpaceView: View {
                 .padding(.top, 48)
                 
                 VStack {
-                    // Wrapping words manually into rows
                     let rows = createRows(words: viewModel.choices)
                     ForEach(rows, id: \.self) { row in
                         HStack {
@@ -92,15 +91,14 @@ struct BlankSpaceView: View {
         }
     }
     
-    // Helper function to create rows of words
     func createRows(words: [String]) -> [[String]] {
         var rows: [[String]] = []
         var currentRow: [String] = []
         var currentWidth: CGFloat = 0
-        let maxWidth: CGFloat = UIScreen.main.bounds.width - 80 // Adjust this value as necessary
+        let maxWidth: CGFloat = UIScreen.main.bounds.width - 80
         
         for word in words {
-            let wordWidth = (word as NSString).size(withAttributes: [.font: UIFont.systemFont(ofSize: 17)]).width + 30 // Adjust padding as necessary
+            let wordWidth = (word as NSString).size(withAttributes: [.font: UIFont.systemFont(ofSize: 17)]).width + 30
             if currentWidth + wordWidth > maxWidth {
                 rows.append(currentRow)
                 currentRow = [word]

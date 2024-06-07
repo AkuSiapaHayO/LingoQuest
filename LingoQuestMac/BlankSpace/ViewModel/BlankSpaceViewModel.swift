@@ -1,8 +1,8 @@
 //
-//  BlankSpaceViewModel.swift
-//  LingoQuest
+//  BlankSpaceViewModelMac.swift
+//  LingoQuestMac
 //
-//  Created by MacBook Pro on 06/06/24.
+//  Created by Clarissa A. Herawan on 07/06/24.
 //
 
 import Foundation
@@ -77,18 +77,7 @@ class BlankSpaceViewModel: NSObject, ObservableObject, AVSpeechSynthesizerDelega
         return filledParagraph
     }
 
-    private func configureAudioSessionForPlayback() {
-        let audioSession = AVAudioSession.sharedInstance()
-        do {
-            try audioSession.setCategory(.playback, mode: .default, options: [])
-            try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
-        } catch {
-            print("Failed to configure audio session: \(error.localizedDescription)")
-        }
-    }
-
     private func speak(text: String, completion: @escaping () -> Void) {
-        configureAudioSessionForPlayback()
         self.speechCompletion = completion
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
@@ -96,17 +85,6 @@ class BlankSpaceViewModel: NSObject, ObservableObject, AVSpeechSynthesizerDelega
     }
 
     func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance) {
-        resetAudioSession()
         speechCompletion?()
     }
-
-    private func resetAudioSession() {
-        let audioSession = AVAudioSession.sharedInstance()
-        do {
-            try audioSession.setActive(false, options: .notifyOthersOnDeactivation)
-        } catch {
-            print("Failed to reset audio session: \(error.localizedDescription)")
-        }
-    }
-
 }

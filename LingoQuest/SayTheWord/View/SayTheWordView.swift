@@ -14,7 +14,7 @@ struct SayTheWordView: View {
     @State private var showAlert = false
     @Environment(\.presentationMode) var presentationMode
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
-
+    
     var body: some View {
         GeometryReader { geometry in
             VStack {
@@ -86,7 +86,7 @@ struct SayTheWordView: View {
                             showAlert = true
                         }
                     }
-
+                
                 Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -189,6 +189,7 @@ struct SayTheWordView: View {
     private func resetAudioSession() {
         let audioSession = AVAudioSession.sharedInstance()
         do {
+            try audioSession.setCategory(.playAndRecord, mode: .default, options: [.defaultToSpeaker, .allowBluetooth])
             try audioSession.setActive(false, options: .notifyOthersOnDeactivation)
         } catch {
             print("Failed to reset audio session: \(error.localizedDescription)")
