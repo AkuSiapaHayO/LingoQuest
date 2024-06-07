@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "correctAnswer": "cat"
+        "correctAnswer": "Cat"
     },
     {
         "id": 2,
-        "correctAnswer": "dog"
+        "correctAnswer": "Dog"
     },
     {
         "id": 3,
-        "correctAnswer": "banana"
+        "correctAnswer": "Banana"
     },
     {
         "id": 4,
-        "correctAnswer": "elephant"
+        "correctAnswer": "Elephant"
     },
     {
         "id": 5,
-        "correctAnswer": "difficult"
+        "correctAnswer": "Difficult"
     },
     {
         "id": 6,
-        "correctAnswer": "imagination"
+        "correctAnswer": "Imagination"
     },
     {
         "id": 7,
-        "correctAnswer": "pronunciation"
+        "correctAnswer": "Pronunciation"
     },
     {
         "id": 8,
-        "correctAnswer": "entrepreneur"
+        "correctAnswer": "Entrepreneur"
     },
     {
         "id": 9,
-        "correctAnswer": "miscellaneous"
+        "correctAnswer": "Miscellaneous"
     },
     {
         "id": 10,
-        "correctAnswer": "uncharacteristically"
+        "correctAnswer": "Uncharacteristically"
     },
     {
         "id": 11,
-        "correctAnswer": "otorhinolaryngologist"
+        "correctAnswer": "Harmonizer"
     },
     {
         "id": 12,
-        "correctAnswer": "subdermatoglyphic"
+        "correctAnswer": "Printmaker"
     },
     {
         "id": 13,
-        "correctAnswer": "immunoelectrophoresis"
+        "correctAnswer": "Dreamcatcher"
     },
     {
         "id": 14,
-        "correctAnswer": "spectrophotofluorometrically"
+        "correctAnswer": "Anemone"
     },
     {
         "id": 15,
-        "correctAnswer": "pseudopseudohypoparathyroidism"
+        "correctAnswer": "Colonel"
     }
 ]
