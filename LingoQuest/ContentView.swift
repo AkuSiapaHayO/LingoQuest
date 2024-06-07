@@ -58,7 +58,7 @@ struct ContentView: View {
                             )
                             .cornerRadius(6)
                             .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
-                            .padding(.trailing, 30)
+                            .padding(.trailing, 25)
                         
                         Text("Crossword")
                             .font(.title)
@@ -66,10 +66,10 @@ struct ContentView: View {
                             .multilineTextAlignment(.center)
                             .foregroundColor(.white)
                             .padding(.vertical, 12)
-                            .padding(.trailing, 35)
+                            .padding(.trailing, 15)
                     }
                     .padding(.vertical, 10)
-                    .padding(.horizontal, 35)
+                    .padding(.horizontal, 45)
                     .background(
                         LinearGradient(
                             gradient: Gradient(colors: [Color.red.opacity(0.8), Color(red: 1, green: 0, blue: 0)]),
