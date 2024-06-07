@@ -10,6 +10,7 @@ import Foundation
 class LevelViewModel: ObservableObject {
     @Published var levelsData: [LevelData] = []
     @Published var unlockedLevels: [Int] = UserDefaults.standard.array(forKey: "unlockedLevels") as? [Int] ?? [1]
+    @Published var streakManager = StreakManager()
 
     init() {
         loadLevels()
@@ -35,6 +36,7 @@ class LevelViewModel: ObservableObject {
         if !unlockedLevels.contains(level + 1) && level + 1 <= levelsData.count {
             unlockedLevels.append(level + 1)
             UserDefaults.standard.set(unlockedLevels, forKey: "unlockedLevels")
+            streakManager.updateStreak()
         }
     }
 }

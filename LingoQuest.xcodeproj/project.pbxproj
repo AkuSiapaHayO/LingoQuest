@@ -74,6 +74,8 @@
 		CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */; };
 		CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */; };
 		CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */; };
+		D96774332C12FC6D00010663 /* StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96774322C12FC6D00010663 /* StreakManager.swift */; };
+		D96774342C12FFA600010663 /* StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96774322C12FC6D00010663 /* StreakManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +135,7 @@
 		CBF6DC0F2C119EB1009765DB /* LevelsViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC112C119ED6009765DB /* SayTheWordViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewMac.swift; sourceTree = "<group>"; };
 		CBF6DC132C119EF3009765DB /* SayTheWordViewModelMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayTheWordViewModelMac.swift; sourceTree = "<group>"; };
+		D96774322C12FC6D00010663 /* StreakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +195,7 @@
 				04A6467C2C1185400019C5CF /* LingoQuestApp.swift */,
 				04A6467E2C1185400019C5CF /* ContentView.swift */,
 				04A646B72C11A3CE0019C5CF /* SplashScreenView.swift */,
+				D96774322C12FC6D00010663 /* StreakManager.swift */,
 				04A646802C1185430019C5CF /* Assets.xcassets */,
 				04A646822C1185430019C5CF /* Preview Content */,
 			);
@@ -549,6 +553,7 @@
 				045FA7792C12C6290092F66E /* Coordinator.swift in Sources */,
 				04A646B22C11A3660019C5CF /* Levelsview.swift in Sources */,
 				04A646EE2C11CDE00019C5CF /* CustomTextField.swift in Sources */,
+				D96774332C12FC6D00010663 /* StreakManager.swift in Sources */,
 				04A646B02C11A3660019C5CF /* LevelData.swift in Sources */,
 				04A646DE2C11CBE10019C5CF /* CrosswordCell.swift in Sources */,
 				04A6467F2C1185400019C5CF /* ContentView.swift in Sources */,
@@ -574,6 +579,7 @@
 			files = (
 				04A646F32C11D43C0019C5CF /* CellViewMac.swift in Sources */,
 				CBF6DC122C119ED6009765DB /* SayTheWordViewMac.swift in Sources */,
+				D96774342C12FFA600010663 /* StreakManager.swift in Sources */,
 				04A646FD2C11D5290019C5CF /* CrosswordCell.swift in Sources */,
 				04A646932C11868F0019C5CF /* ContentView.swift in Sources */,
 				04A6470E2C11D7860019C5CF /* BlankSpaceModel.swift in Sources */,

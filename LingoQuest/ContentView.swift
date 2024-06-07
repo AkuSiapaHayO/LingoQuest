@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedView: SelectedView?
+    @ObservedObject var streakManager = StreakManager()
     
     enum SelectedView: Identifiable {
         case crosswordLevels
@@ -156,8 +157,13 @@ struct ContentView: View {
                     )
                     .cornerRadius(90)
                     .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
-                    
                 }
+                
+                Text("\(streakManager.streakCount) \(streakManager.shape)")
+                    .font(.system(size: 60))
+            }
+            .onAppear {
+                streakManager.checkForSkippedDay()
             }
         }
         .padding(15)

@@ -13,6 +13,7 @@ class CrosswordViewModel: ObservableObject {
     @Published var showingAlert: Bool = false
     @Published var currentLevel: Int
     @Published var questions: [CrosswordQuestionModel] = []
+    @Published var streakManager = StreakManager()
     
     private var levels: [CrosswordLevelModel] = []
     
@@ -60,6 +61,7 @@ class CrosswordViewModel: ObservableObject {
         guard let level = levels.first(where: { $0.levelNumber == currentLevel }) else { return }
         if allAnswersCorrect(level: level) {
             self.showingAlert = true
+            streakManager.updateStreak()
         }
     }
 

@@ -13,7 +13,8 @@ class SayTheWordViewModelMac: ObservableObject {
     @Published var currentLevel: Int
     @Published var currentWord: String = ""
     @Published var transcript: String = ""
-    
+    @Published var streakManager = StreakManager()
+
     private var words: [LevelData] = []
     private let speechRecognizer = SFSpeechRecognizer(locale: Locale(identifier: "en-US"))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
@@ -47,6 +48,7 @@ class SayTheWordViewModelMac: ObservableObject {
     
     func completeLevel() {
         levelViewModel.unlockNextLevel(after: currentLevel)
+        streakManager.updateStreak()
     }
     
     func startListening() {

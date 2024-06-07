@@ -13,6 +13,7 @@ class BlankSpaceViewModel: NSObject, ObservableObject, AVSpeechSynthesizerDelega
     @Published var paragraph: String = ""
     @Published var choices: [String] = []
     @Published var showCompletionPopup: Bool = false
+    @Published var streakManager = StreakManager()
 
     private var correctAnswers: [String] = []
     private var levelsData: [BlankSpaceModel] = []
@@ -61,6 +62,7 @@ class BlankSpaceViewModel: NSObject, ObservableObject, AVSpeechSynthesizerDelega
     private func unlockNextLevel() {
         let nextLevel = currentLevel + 1
         UserDefaults.standard.set(true, forKey: "level_\(nextLevel)_unlocked")
+        streakManager.updateStreak()
     }
 
     private func getFilledParagraph() -> String {
