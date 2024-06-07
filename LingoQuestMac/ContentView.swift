@@ -82,7 +82,7 @@ struct ContentView: View {
                 .buttonStyle(ClearButtonStyle())
                 
                 Button(action: {
-                    selectedView = .pronunciationLevels
+//                    selectedView = .pronunciationLevels
                 }) {
                     HStack(spacing: 10) {
                         Rectangle()
