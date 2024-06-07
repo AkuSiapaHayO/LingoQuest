@@ -9,6 +9,7 @@ import SwiftUI
 struct CrosswordDetailViewMac: View {
     var level: Int
     @ObservedObject var viewModel: CrosswordLevelsViewModel
+    @StateObject private var audioManager = AudioManager.shared
     var onBack: () -> Void
 
     var body: some View {
@@ -31,6 +32,13 @@ struct CrosswordDetailViewMac: View {
         }
         .background(Color.white.opacity(1))
         .edgesIgnoringSafeArea(.all)
+        .onAppear(){
+            audioManager.playBackgroundSound(sound: "Cute Avalanche - RKVC", type: "mp3")
+        }
+        .onDisappear {
+            audioManager.stopBackgroundSound()
+        }
+        
     }
     
     

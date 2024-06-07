@@ -11,6 +11,10 @@
 		045FA77C2C12C7890092F66E /* ClearButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FA77B2C12C7890092F66E /* ClearButtonStyle.swift */; };
 		045FA77E2C12CA2B0092F66E /* BlankSpaceClearLevelButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FA77D2C12CA2B0092F66E /* BlankSpaceClearLevelButtonStyle.swift */; };
 		045FA7802C12CA5D0092F66E /* ClearLevelDetailButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FA77F2C12CA5D0092F66E /* ClearLevelDetailButtonStyle.swift */; };
+		045FA7822C12D3450092F66E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FA7812C12D3450092F66E /* AudioManager.swift */; };
+		045FA7832C12D3450092F66E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FA7812C12D3450092F66E /* AudioManager.swift */; };
+		045FA7852C12D3BB0092F66E /* Cute Avalanche - RKVC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 045FA7842C12D3BA0092F66E /* Cute Avalanche - RKVC.mp3 */; };
+		045FA7862C12D3BB0092F66E /* Cute Avalanche - RKVC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 045FA7842C12D3BA0092F66E /* Cute Avalanche - RKVC.mp3 */; };
 		04A6467D2C1185400019C5CF /* LingoQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6467C2C1185400019C5CF /* LingoQuestApp.swift */; };
 		04A6467F2C1185400019C5CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6467E2C1185400019C5CF /* ContentView.swift */; };
 		04A646812C1185430019C5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A646802C1185430019C5CF /* Assets.xcassets */; };
@@ -79,6 +83,9 @@
 		045FA77B2C12C7890092F66E /* ClearButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButtonStyle.swift; sourceTree = "<group>"; };
 		045FA77D2C12CA2B0092F66E /* BlankSpaceClearLevelButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankSpaceClearLevelButtonStyle.swift; sourceTree = "<group>"; };
 		045FA77F2C12CA5D0092F66E /* ClearLevelDetailButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearLevelDetailButtonStyle.swift; sourceTree = "<group>"; };
+		045FA7812C12D3450092F66E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		045FA7842C12D3BA0092F66E /* Cute Avalanche - RKVC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Cute Avalanche - RKVC.mp3"; path = "../../../../../Downloads/Cute Avalanche - RKVC.mp3"; sourceTree = "<group>"; };
+		045FA7872C12D3C40092F66E /* Cute Avalanche - RKVC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cute Avalanche - RKVC.mp3"; sourceTree = "<group>"; };
 		04A646792C1185400019C5CF /* LingoQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LingoQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A6467C2C1185400019C5CF /* LingoQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoQuestApp.swift; sourceTree = "<group>"; };
 		04A6467E2C1185400019C5CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -228,8 +235,10 @@
 		04A6469D2C1187730019C5CF /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				045FA7872C12D3C40092F66E /* Cute Avalanche - RKVC.mp3 */,
 				04A6469E2C11882B0019C5CF /* CustomButton.swift */,
 				045FA7782C12C6290092F66E /* Coordinator.swift */,
+				045FA7812C12D3450092F66E /* AudioManager.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -276,6 +285,7 @@
 		04A646BB2C11A6B70019C5CF /* BlankSpace */ = {
 			isa = PBXGroup;
 			children = (
+				045FA7842C12D3BA0092F66E /* Cute Avalanche - RKVC.mp3 */,
 				04A646BE2C11A6D30019C5CF /* View */,
 				04A646BD2C11A6CB0019C5CF /* View Model */,
 				04A646BC2C11A6C10019C5CF /* Model */,
@@ -497,6 +507,7 @@
 			files = (
 				04A646B62C11A3660019C5CF /* words.json in Resources */,
 				04A646D92C11CB8E0019C5CF /* CrosswordLevels.json in Resources */,
+				045FA7852C12D3BB0092F66E /* Cute Avalanche - RKVC.mp3 in Resources */,
 				04A646842C1185430019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646C02C11A7250019C5CF /* levels.json in Resources */,
 				04A646812C1185430019C5CF /* Assets.xcassets in Resources */,
@@ -509,6 +520,7 @@
 			files = (
 				04A646982C1186920019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646952C1186920019C5CF /* Assets.xcassets in Resources */,
+				045FA7862C12D3BB0092F66E /* Cute Avalanche - RKVC.mp3 in Resources */,
 				04A647112C11D7860019C5CF /* levels.json in Resources */,
 				04A646DA2C11CB8E0019C5CF /* CrosswordLevels.json in Resources */,
 				04A647122C11D7900019C5CF /* words.json in Resources */,
@@ -546,6 +558,7 @@
 				04A646D22C11A8B70019C5CF /* BlankSpaceModel.swift in Sources */,
 				04A6469F2C11882B0019C5CF /* CustomButton.swift in Sources */,
 				04A646E62C11CD2F0019C5CF /* CrosswordViewModel.swift in Sources */,
+				045FA7822C12D3450092F66E /* AudioManager.swift in Sources */,
 				04A646B42C11A3660019C5CF /* LevelsViewModel.swift in Sources */,
 				04A646EC2C11CDD40019C5CF /* CrosswordView.swift in Sources */,
 			);
@@ -573,6 +586,7 @@
 				CBF6DC102C119EB1009765DB /* LevelsViewMac.swift in Sources */,
 				CBF6DC142C119EF3009765DB /* SayTheWordViewModelMac.swift in Sources */,
 				045FA7802C12CA5D0092F66E /* ClearLevelDetailButtonStyle.swift in Sources */,
+				045FA7832C12D3450092F66E /* AudioManager.swift in Sources */,
 				04A646FF2C11D5300019C5CF /* CrosswordLevelModel.swift in Sources */,
 				04A646FC2C11D4EE0019C5CF /* CustomTextFieldMac.swift in Sources */,
 				045FA77E2C12CA2B0092F66E /* BlankSpaceClearLevelButtonStyle.swift in Sources */,

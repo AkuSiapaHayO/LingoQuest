@@ -83,7 +83,6 @@ struct ContentView: View {
                 
                 Button(action: {
                     selectedView = .pronunciationLevels
-                    audioManager.pauseBackgroundSound()
                 }) {
                     HStack(spacing: 10) {
                         Rectangle()
@@ -169,7 +168,6 @@ struct ContentView: View {
                     CrosswordLevelsView(viewModel: CrosswordLevelsViewModel())
                         .navigationBarItems(leading: Button(action: {
                             selectedView = nil
-                            audioManager.resumeBackgroundSound()
                         }) {
                             Image(systemName: "arrow.left")
                                 .foregroundColor(.blue)
@@ -182,7 +180,6 @@ struct ContentView: View {
                     LevelsView(levelsViewModel: LevelViewModel())
                         .navigationBarItems(leading: Button(action: {
                             selectedView = nil
-                            audioManager.resumeBackgroundSound()
                         }) {
                             Image(systemName: "arrow.left")
                                 .foregroundColor(.blue)
@@ -195,7 +192,6 @@ struct ContentView: View {
                     LevelView(viewModel: BlankSpaceLevelViewModel())
                         .navigationBarItems(leading: Button(action: {
                             selectedView = nil
-                            audioManager.resumeBackgroundSound()
                         }) {
                             Image(systemName: "arrow.left")
                                 .foregroundColor(.blue)

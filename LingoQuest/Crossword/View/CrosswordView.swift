@@ -11,6 +11,7 @@ struct CrosswordView: View {
     @Environment(\.presentationMode) var presentationMode
     @ObservedObject var levelsViewModel: CrosswordLevelsViewModel
     @State private var showCompletionAlert = false
+    @StateObject private var audioManager = AudioManager.shared
     
     init(levelNumber: Int, levelsViewModel: CrosswordLevelsViewModel) {
         _viewModel = StateObject(wrappedValue: CrosswordViewModel(levelNumber: levelNumber))
@@ -80,6 +81,12 @@ struct CrosswordView: View {
             LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.6), Color.purple.opacity(0.6)]), startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
         )
+        .onAppear(){
+            audioManager.playBackgroundSound(sound: "Cute Avalanche - RKVC", type: "mp3")
+        }
+        .onDisappear {
+            audioManager.stopBackgroundSound()
+        }
         .onReceive(viewModel.$showingAlert) { showingAlert in
             if showingAlert {
                 showCompletionAlert = true

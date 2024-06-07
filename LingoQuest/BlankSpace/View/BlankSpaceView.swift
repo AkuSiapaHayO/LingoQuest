@@ -60,7 +60,6 @@ struct BlankSpaceView: View {
                 
                 Button(action: {
                     if viewModel.checkAnswer(selectedWords: selectedWords) {
-                        audioManager.setVolume(0.1)
                         viewModel.completeLevel()
                     } else {
                         selectedWords.removeAll()
@@ -82,7 +81,6 @@ struct BlankSpaceView: View {
                 viewModel.loadLevel()
             }
             .onDisappear{
-                audioManager.setVolume(1.0)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
