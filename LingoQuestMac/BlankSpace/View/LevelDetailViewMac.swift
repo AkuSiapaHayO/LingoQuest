@@ -21,7 +21,7 @@ struct LevelDetailViewMac: View {
             }
             .background(Color(.white))
             .padding(.top, 20)
-
+            .padding(.leading, 20)
             BlankSpaceViewMac(viewModel: BlankSpaceViewModel(level: level))
         }
         .background(Color.white.opacity(1)) // Make background opaque

@@ -9,10 +9,25 @@ import SwiftUI
 struct CrosswordLevelsViewMac: View {
     @ObservedObject var viewModel: CrosswordLevelsViewModel
     @State private var selectedLevel: Int? = nil
+    var onBack: () -> Void
 
     var body: some View {
         ZStack {
             VStack {
+                HStack {
+                    Button(action: {
+                        onBack()
+                    }) {
+                        Image(systemName: "arrow.backward")
+                            .font(.title)
+                            .padding()
+                            .foregroundColor(.black)
+                            .buttonStyle(ClearButtonStyle())
+                    }
+                    .padding(.top, 20)
+                    .padding(.leading, 20)
+                    Spacer()
+                }
                 Text("Select Level")
                     .font(.title)
                     .padding(.top, 40)

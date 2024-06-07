@@ -3,10 +3,26 @@ import SwiftUI
 struct LevelViewMac: View {
     @ObservedObject var viewModel: BlankSpaceLevelViewModel
     @State private var selectedLevel: Int? = nil
+    var onBack: () -> Void
 
     var body: some View {
         ZStack {
             VStack {
+                HStack {
+                    Button(action: {
+                        onBack()
+                    }) {
+                        Image(systemName: "arrow.backward")
+                            .font(.title)
+                            .padding()
+                            .foregroundColor(.black)
+                            .buttonStyle(ClearButtonStyle())
+                    }
+                    Spacer()
+                }
+                .background(Color(.white))
+                .padding(.top, 20)
+                .padding(.leading, 20)
                 Text("Select Level")
                     .font(.title)
                     .padding(.top, 40)
@@ -65,8 +81,8 @@ struct BlankSpaceClearLevelButtonStyle: ButtonStyle {
     }
 }
 
-struct LevelViewMac_Previews: PreviewProvider {
-    static var previews: some View {
-        LevelViewMac(viewModel: BlankSpaceLevelViewModel())
-    }
-}
+//struct LevelViewMac_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LevelViewMac(viewModel: BlankSpaceLevelViewModel())
+//    }
+//}

@@ -10,15 +10,30 @@ import SwiftUI
 struct LevelsViewMac: View {
     @ObservedObject var viewModel: LevelViewModel
     @State private var selectedLevel: Int? = nil
+    var onBack: () -> Void
 
     var body: some View {
         ZStack {
             VStack {
+                HStack {
+                    Button(action: {
+                        onBack()
+                    }) {
+                        Image(systemName: "arrow.backward")
+                            .font(.title)
+                            .padding()
+                            .foregroundColor(.black)
+                            .buttonStyle(ClearButtonStyle())
+                    }
+                    .padding(.top, 20)
+                    .padding(.leading, 20)
+                    Spacer()
+                }
                 Text("Select Level")
                     .font(.title)
                     .padding(.top, 40)
                     .foregroundColor(.black)
-                Text("Blank Space")
+                Text("Say the Word")
                     .font(.largeTitle)
                     .bold()
                     .padding(.bottom, 20)
@@ -35,7 +50,7 @@ struct LevelsViewMac: View {
                                 Text("\(level)")
                                     .font(.title)
                                     .frame(width: 80, height: 80)
-                                    .background(viewModel.isUnlocked(level: level) ? Color(red: 59 / 255, green: 166 / 255, blue: 102 / 255) : Color.gray)
+                                    .background(viewModel.isUnlocked(level: level) ? Color.orange : Color.gray)
                                     .foregroundColor(.white)
                                     .cornerRadius(10)
                             }
@@ -72,9 +87,9 @@ struct SayTheWordClearLevelButtonStyle: ButtonStyle {
     }
 }
 
-struct LevelsViewMac_Previews: PreviewProvider {
-    static var previews: some View {
-        LevelsViewMac(viewModel: LevelViewModel())
-    }
-}
+//struct LevelsViewMac_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LevelsViewMac(viewModel: LevelViewModel())
+//    }
+//}
 

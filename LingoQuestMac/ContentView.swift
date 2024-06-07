@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedView: SelectedView?
+    @StateObject private var audioManager = AudioManager.shared
     
     enum SelectedView: Identifiable {
         case crosswordLevels
@@ -58,7 +59,7 @@ struct ContentView: View {
                             )
                             .cornerRadius(6)
                             .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
-                            .padding(.trailing, 30)
+                            .padding(.trailing, 20)
                         
                         Text("Crossword")
                             .font(.title)
@@ -66,7 +67,7 @@ struct ContentView: View {
                             .multilineTextAlignment(.center)
                             .foregroundColor(.white)
                             .padding(.vertical, 12)
-                            .padding(.trailing, 35)
+                            .padding(.trailing, 20)
                     }
                     .padding(.vertical, 10)
                     .padding(.horizontal, 45)
@@ -78,8 +79,8 @@ struct ContentView: View {
                         )
                     )
                     .cornerRadius(90)
-                    .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
                 }
+                .buttonStyle(ClearButtonStyle())
                 
                 Button(action: {
                     selectedView = .pronunciationLevels
@@ -97,9 +98,9 @@ struct ContentView: View {
                             )
                             .cornerRadius(6)
                             .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
-                            .padding(.trailing, 4)
+                            .padding(.trailing, 10)
                         
-                        Text("Pronunciation")
+                        Text("Say the Word")
                             .font(.title)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
@@ -116,8 +117,8 @@ struct ContentView: View {
                         )
                     )
                     .cornerRadius(90)
-                    .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
                 }
+                .buttonStyle(ClearButtonStyle())
                 
                 Button(action: {
                     selectedView = .blankSpaceLevels
@@ -155,47 +156,32 @@ struct ContentView: View {
                         )
                     )
                     .cornerRadius(90)
-                    .shadow(color: Color(red: 0, green: 0.16, blue: 0.48).opacity(0.25), radius: 5, x: 0, y: 0)
                     
                 }
+                .buttonStyle(ClearButtonStyle())
             }
+        }
+        .onAppear {
+            audioManager.playBackgroundSound(sound: "Cute Avalanche - RKVC", type: "mp3")
+        }
+        .onDisappear {
+            audioManager.stopBackgroundSound()
         }
         .padding(15)
         .sheet(item: $selectedView) { view in
             switch view {
             case .crosswordLevels:
-                CrosswordLevelsViewMac(viewModel: CrosswordLevelsViewModel())
-                    .toolbar {
-                        ToolbarItem(placement: .navigation) {
-                            Button(action: {
-                                selectedView = nil
-                            }) {
-                                Label("Back", systemImage: "arrow.left")
-                            }
-                        }
-                    }
+                CrosswordLevelsViewMac(viewModel: CrosswordLevelsViewModel()) {
+                    selectedView = nil
+                }
             case .pronunciationLevels:
-                LevelsViewMac(viewModel: LevelViewModel())
-                    .toolbar {
-                        ToolbarItem(placement: .navigation) {
-                            Button(action: {
-                                selectedView = nil
-                            }) {
-                                Label("Back", systemImage: "arrow.left")
-                            }
-                        }
-                    }
+                LevelsViewMac(viewModel: LevelViewModel()) {
+                    selectedView = nil
+                }
             case .blankSpaceLevels:
-                LevelViewMac(viewModel: BlankSpaceLevelViewModel())
-                    .toolbar {
-                        ToolbarItem(placement: .navigation) {
-                            Button(action: {
-                                selectedView = nil
-                            }) {
-                                Label("Back", systemImage: "arrow.left")
-                            }
-                        }
-                    }
+                LevelViewMac(viewModel: BlankSpaceLevelViewModel()) {
+                    selectedView = nil
+                }
             }
         }
     }

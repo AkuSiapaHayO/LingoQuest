@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042CADAE2C12B4A3005FA665 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CADAD2C12B4A3005FA665 /* AudioManager.swift */; };
+		042CADAF2C12B4A3005FA665 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CADAD2C12B4A3005FA665 /* AudioManager.swift */; };
+		042CADB12C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042CADB02C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 */; };
+		042CADB22C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042CADB02C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 */; };
 		04A6467D2C1185400019C5CF /* LingoQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6467C2C1185400019C5CF /* LingoQuestApp.swift */; };
 		04A6467F2C1185400019C5CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6467E2C1185400019C5CF /* ContentView.swift */; };
 		04A646812C1185430019C5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A646802C1185430019C5CF /* Assets.xcassets */; };
@@ -71,6 +75,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042CADAD2C12B4A3005FA665 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		042CADB02C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Cute Avalanche - RKVC.mp3"; path = "../../../../../Downloads/Cute Avalanche - RKVC.mp3"; sourceTree = "<group>"; };
 		04A646792C1185400019C5CF /* LingoQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LingoQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A6467C2C1185400019C5CF /* LingoQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoQuestApp.swift; sourceTree = "<group>"; };
 		04A6467E2C1185400019C5CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -209,6 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				04A6469E2C11882B0019C5CF /* CustomButton.swift */,
+				042CADB02C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 */,
+				042CADAD2C12B4A3005FA665 /* AudioManager.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -477,6 +485,7 @@
 			files = (
 				04A646B62C11A3660019C5CF /* words.json in Resources */,
 				04A646D92C11CB8E0019C5CF /* CrosswordLevels.json in Resources */,
+				042CADB12C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 in Resources */,
 				04A646842C1185430019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646C02C11A7250019C5CF /* levels.json in Resources */,
 				04A646812C1185430019C5CF /* Assets.xcassets in Resources */,
@@ -489,6 +498,7 @@
 			files = (
 				04A646982C1186920019C5CF /* Preview Assets.xcassets in Resources */,
 				04A646952C1186920019C5CF /* Assets.xcassets in Resources */,
+				042CADB22C12B55F005FA665 /* Cute Avalanche - RKVC.mp3 in Resources */,
 				04A647112C11D7860019C5CF /* levels.json in Resources */,
 				04A646DA2C11CB8E0019C5CF /* CrosswordLevels.json in Resources */,
 				04A647122C11D7900019C5CF /* words.json in Resources */,
@@ -514,6 +524,7 @@
 				04A646EE2C11CDE00019C5CF /* CustomTextField.swift in Sources */,
 				04A646B02C11A3660019C5CF /* LevelData.swift in Sources */,
 				04A646DE2C11CBE10019C5CF /* CrosswordCell.swift in Sources */,
+				042CADAE2C12B4A3005FA665 /* AudioManager.swift in Sources */,
 				04A6467F2C1185400019C5CF /* ContentView.swift in Sources */,
 				04A646E02C11CBF80019C5CF /* CrosswordLevelModel.swift in Sources */,
 				04A6467D2C1185400019C5CF /* LingoQuestApp.swift in Sources */,
@@ -558,6 +569,7 @@
 				04A646FE2C11D52D0019C5CF /* CrosswordAnswerModel.swift in Sources */,
 				04A6470D2C11D75A0019C5CF /* LevelViewMac.swift in Sources */,
 				04A647092C11D71A0019C5CF /* BlankSpaceViewMac.swift in Sources */,
+				042CADAF2C12B4A3005FA665 /* AudioManager.swift in Sources */,
 				CB6F9E2D2C120FE100E5C626 /* LevelsDetailViewMac.swift in Sources */,
 				04A646A02C1189840019C5CF /* CustomButton.swift in Sources */,
 			);

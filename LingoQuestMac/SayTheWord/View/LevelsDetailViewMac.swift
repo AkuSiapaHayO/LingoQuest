@@ -27,7 +27,8 @@ struct LevelsDetailViewMac: View {
                 Spacer()
             }
             .background(Color(.white))
-            .padding(.top, 20)
+            .padding(.top, 60)
+            .padding(.leading, 10)
 
             SayTheWordViewMac(viewModel: SayTheWordViewModelMac(level: level, levelViewModel: viewModel))        }
         .background(Color.white.opacity(1)) // Make background opaque

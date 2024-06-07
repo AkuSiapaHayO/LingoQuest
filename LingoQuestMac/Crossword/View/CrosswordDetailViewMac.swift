@@ -27,7 +27,7 @@ struct CrosswordDetailViewMac: View {
             }
             .buttonStyle(ClearButtonStyle())
             .padding(.leading, 20)
-            .padding(.top, 50)
+            .padding(.top, 20)
         }
         .background(Color.white.opacity(1))
         .edgesIgnoringSafeArea(.all)
